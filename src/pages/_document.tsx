@@ -1,13 +1,20 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { fonts } from '@/helpers/fonts';
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html lang="en">
-      <Head />
-      <body>
+    <Html lang='en'>
+      <Head>
+        <meta
+          name='keywords'
+          content='British Powerlifting Federation, BPF, IPL, powerlifting, weightlifting, strongman'
+        />
+        <meta name='author' content='Scott Freeman' />
+      </Head>
+      <body className={`${fonts.body.className}`}>
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
