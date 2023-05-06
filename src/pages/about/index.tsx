@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='About' />
+          <PageHeader backgroundImage={backgroundImage} title='About Us' />
           <Container className='py-10'>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quo aliquam numquam nisi ea expedita

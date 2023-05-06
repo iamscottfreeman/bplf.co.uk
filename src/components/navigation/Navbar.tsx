@@ -3,14 +3,13 @@ import MobileMenuButton from './MobileMenuButton';
 import DropdownItem from './DropdownItem';
 import DropdownMenu from './DropdownMenu';
 import Link from './Link';
-import Container from '../atoms/Container';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <nav className='relative z-50 bg-gray-800 text-offwhite md:h-16'>
-      <Container className='px-0 md:px-4'>
+      <div className='m-auto max-w-7xl px-0 md:px-4'>
         <div className='md:flex md:items-center md:justify-between'>
           <div className='h-16 inset-y-0 left-0 flex items-center md:hidden'>
             <MobileMenuButton mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
@@ -22,8 +21,11 @@ const Navbar = () => {
           >
             <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-3'>
               <Link href='/'>Home</Link>
-              <DropdownMenu href='/about' text='About'>
-                <DropdownItem href='#'>Meet the team</DropdownItem>
+              <DropdownMenu href='/about' text='About Us'>
+                <div className='md:hidden'>
+                  <DropdownItem href='/about'>About Us</DropdownItem>
+                </div>
+                <DropdownItem href='#'>Meet the Team</DropdownItem>
                 <DropdownItem href='#'>Officials</DropdownItem>
                 <DropdownItem href='#'>The BPF Academy</DropdownItem>
                 <DropdownItem href='#'>About the BPF</DropdownItem>
@@ -39,7 +41,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </div>
     </nav>
   );
 };
