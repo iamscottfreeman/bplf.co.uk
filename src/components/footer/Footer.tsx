@@ -29,7 +29,7 @@ const Footer = () => {
                 <Link
                   href='https://goo.gl/maps/ziGiLquFfupyB6XN8'
                   target='_blank'
-                  className='text-gray-600 transition-colors hover:text-red-700 flex'
+                  className='transition-colors hover:text-red-700 flex'
                 >
                   <IconPin className='inline mr-1' />
                   The BPF Academy, <br className='lg:hidden' />
@@ -39,16 +39,13 @@ const Footer = () => {
                 </Link>
               </div>
               <div>
-                <Link href='tel:+441773687667' className='text-gray-600 transition-colors hover:text-red-700'>
+                <Link href='tel:+441773687667' className='transition-colors hover:text-red-700'>
                   <IconPhone className='inline mr-1' />
                   01773 687 667
                 </Link>
               </div>
               <div className='mt-4'>
-                <Link
-                  href='mailto:bpf.secretary@gmail.com'
-                  className='text-gray-600 transition-colors hover:text-red-700'
-                >
+                <Link href='mailto:bpf.secretary@gmail.com' className='transition-colors hover:text-red-700'>
                   <IconMail className='inline mr-1' />
                   bpf.secretary@gmail.com
                 </Link>
@@ -58,13 +55,46 @@ const Footer = () => {
           <div>
             <h4 className={`${fonts.header.className} text-2xl uppercase mb-2`}>Quick Links</h4>
             <ul>
-              <li className='mb-1'>Home</li>
-              <li className='mb-1'>About</li>
-              <li className='mb-1'>Membership</li>
-              <li className='mb-1'>Events</li>
-              <li className='mb-1'>Results</li>
-              <li className='mb-1'>Blog</li>
-              <li className='mb-1'>British Strict Curl Federation</li>
+              <li className='mb-1'>
+                <Link href='/' className='transition-colors hover:text-red-700'>
+                  Home
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/about' className='transition-colors hover:text-red-700'>
+                  About
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/membership' className='transition-colors hover:text-red-700'>
+                  Membership
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/events' className='transition-colors hover:text-red-700'>
+                  Events
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/results' className='transition-colors hover:text-red-700'>
+                  Results
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/blog' className='transition-colors hover:text-red-700'>
+                  Blog
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/newsletters' className='transition-colors hover:text-red-700'>
+                  Newsletters
+                </Link>
+              </li>
+              <li className='mb-1'>
+                <Link href='/academy' className='transition-colors hover:text-red-700'>
+                  Academy
+                </Link>
+              </li>
             </ul>
           </div>
           <div>

@@ -3,6 +3,7 @@ import React from 'react';
 import { fonts } from '@/helpers/fonts';
 import Slider from '@/components/atoms/Slider';
 import IconStar from '@/components/icons/IconStar';
+
 import Testimonial from './Testimonial';
 
 const Testimonials = () => {

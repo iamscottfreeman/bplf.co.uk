@@ -8,36 +8,45 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className='relative z-50 bg-gray-800 text-offwhite md:h-16'>
-      <div className='m-auto max-w-7xl px-0 md:px-4'>
-        <div className='md:flex md:items-center md:justify-between'>
-          <div className='h-16 inset-y-0 left-0 flex items-center md:hidden'>
+    <nav className='sticky top-24 z-50 lg:relative bg-gray-800 text-offwhite lg:h-16 lg:top-0'>
+      <div className='m-auto max-w-7xl px-0 lg:px-4'>
+        <div className='lg:flex lg:items-center lg:justify-between'>
+          <div className='h-16 inset-y-0 left-0 flex items-center lg:hidden'>
             <MobileMenuButton mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
           </div>
           <div
             className={`${
               mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-            } min-h-screen md:min-h-0 px-4 absolute w-full bg-gray-800 transition ease-in-out pb-8 md:relative md:translate-x-0 md:px-0 md:pb-0 md:flex md:flex-1 md:items-center md:justify-start md:h-16`}
+            } min-h-screen lg:min-h-0 px-4 absolute w-full bg-gray-800 transition ease-in-out pb-8 lg:relative lg:translate-x-0 lg:px-0 lg:pb-0 lg:flex lg:flex-1 lg:items-center lg:justify-start lg:h-16`}
           >
-            <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-3'>
+            <div className='flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-3'>
               <Link href='/'>Home</Link>
               <DropdownMenu href='/about' text='About Us'>
-                <div className='md:hidden'>
-                  <DropdownItem href='/about'>About Us</DropdownItem>
-                </div>
-                <DropdownItem href='#'>Meet the Team</DropdownItem>
-                <DropdownItem href='#'>Officials</DropdownItem>
-                <DropdownItem href='#'>The BPF Academy</DropdownItem>
-                <DropdownItem href='#'>About the BPF</DropdownItem>
-                <DropdownItem href='#'>About the IPL</DropdownItem>
-                <DropdownItem href='#'>Sponsors</DropdownItem>
-                <DropdownItem href='#'>Contact Us</DropdownItem>
+                <DropdownItem href='/about'>About Us</DropdownItem>
+                <DropdownItem href='/meet-the-team'>Meet the Team</DropdownItem>
+                <DropdownItem href='/sponsors'>Sponsors</DropdownItem>
+                <DropdownItem href='/ipl'>About the IPL</DropdownItem>
+                <DropdownItem href='/contact'>Contact Us</DropdownItem>
               </DropdownMenu>
-              <Link href='#'>Membership</Link>
-              <Link href='#'>Events</Link>
-              <Link href='#'>Results</Link>
-              <Link href='#'>Blog</Link>
-              <Link href='#'>British Strict Curl Federation</Link>
+              <Link href='/membership'>Membership</Link>
+              <Link href='/events'>Events</Link>
+              <DropdownMenu href='/results' text='Results'>
+                <DropdownItem href='/results/'>British Records 2023</DropdownItem>
+                <DropdownItem href='/results/competitions'>Competition Results</DropdownItem>
+                <DropdownItem href='/results/previous'>Previous British Records</DropdownItem>
+              </DropdownMenu>
+              <DropdownMenu href='/blog' text='Community'>
+                <DropdownItem href='/blog'>Blog</DropdownItem>
+                <DropdownItem href='/newsletters'>Newsletters</DropdownItem>
+                <DropdownItem href='/accredited'>Accredited Gyms & Trainers</DropdownItem>
+                <DropdownItem href='/gallery'>Gallery</DropdownItem>
+              </DropdownMenu>
+              <DropdownMenu href='/rules' text='Policies'>
+                <DropdownItem href='/rules'>Rules</DropdownItem>
+                <DropdownItem href='/drug-testing'>Drug Testing</DropdownItem>
+                <DropdownItem href='/banned-lifters'>Banned Lifters</DropdownItem>
+              </DropdownMenu>
+              <Link href='/academy'>BPF Academy</Link>
             </div>
           </div>
         </div>

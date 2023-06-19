@@ -14,7 +14,7 @@ import Container from '../atoms/Container';
 
 const Header = () => {
   return (
-    <header className='bpf-header'>
+    <header className='bpf-header sticky top-0 z-50 lg:relative'>
       <Container>
         <div className='flex items-center'>
           <Link href='/'>

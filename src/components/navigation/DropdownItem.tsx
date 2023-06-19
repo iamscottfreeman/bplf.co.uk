@@ -9,7 +9,7 @@ const DropdownItem = ({ href, children }: React.PropsWithChildren<Props>) => {
     <li>
       <a
         href={href}
-        className='block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md p-2 text-sm font-medium'
+        className='block text-gray-300 hover:bg-gray-600 hover:text-offwhite rounded-md p-2 text-sm font-medium'
       >
         {children}
       </a>

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { fonts } from '@/helpers/fonts';
 import Container from '@/components/atoms/Container';
 import Slider from '@/components/atoms/Slider';
+
 import img1 from '../../images/stock/1.jpg';
 import img2 from '../../images/stock/2.jpg';
 import img3 from '../../images/stock/3.jpg';

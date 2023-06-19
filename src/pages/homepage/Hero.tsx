@@ -3,11 +3,12 @@ import Link from 'next/link';
 
 import { fonts } from '@/helpers/fonts';
 import Button from '@/components/atoms/Button';
-import backgroundImage from '../../images/stock/4.jpg';
 import IconMember from '@/components/icons/IconMember';
 import IconEvent from '@/components/icons/IconEvent';
 import IconContact from '@/components/icons/IconContact';
 import Container from '@/components/atoms/Container';
+
+import backgroundImage from '../../images/stock/4.jpg';
 
 const Hero = () => {
   return (
@@ -34,20 +35,20 @@ const Hero = () => {
         <div className='my-4 lg:text-xl italic'>The BPF is the only UK route to Mr Olympia in the USA!</div>
         <div className='flex items-center flex-col md:flex-row space-y-4 md:flex md:space-y-0 md:space-x-6 mt-8'>
           <Link
-            href='#'
+            href='/membership'
             className={`${fonts.header.className} bg-red-700 rounded-md text-offwhite px-8 py-4 text-xl uppercase hover:bg-red-600 transition-colors`}
           >
             <IconMember className='inline mr-2' />
             Membership
           </Link>
           <Link
-            href='#'
+            href='/events'
             className={`${fonts.header.className} bg-red-700 rounded-md text-offwhite px-8 py-4 text-xl uppercase hover:bg-red-600 transition-colors`}
           >
             <IconEvent className='inline mr-2' />
             Events
           </Link>
-          <Button href='#'>
+          <Button href='/contact'>
             <IconContact className='inline mr-2' />
             Contact Us
           </Button>

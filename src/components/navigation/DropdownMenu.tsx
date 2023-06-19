@@ -20,6 +20,16 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
           className='hidden md:block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md px-3 py-2 text-sm font-medium'
         >
           {text}
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            fill='none'
+            viewBox='0 0 24 24'
+            strokeWidth={1.5}
+            stroke='currentColor'
+            className='hidden md:inline w-4 h-4 ml-2 align-text-top'
+          >
+            <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
+          </svg>
         </a>
         <span
           className='block text-gray-300 rounded-md px-3 py-2 text-sm font-medium md:hidden'

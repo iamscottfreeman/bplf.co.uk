@@ -2,10 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 
 import { fonts } from '@/helpers/fonts';
-import backgroundImage from '../../images/stock/6.jpg';
-import marcus from '../../images/marcus.jpg';
 import Button from '@/components/atoms/Button';
 import Container from '@/components/atoms/Container';
+
+import backgroundImage from '../../images/stock/6.jpg';
+import marcus from '../../images/marcus.jpg';
 
 const MeetOurFounder = () => {
   return (
@@ -32,7 +33,7 @@ const MeetOurFounder = () => {
               meet the wellness needs of athletes, families and communities.
             </div>
             <div>
-              <Button href='#'>Meet the team</Button>
+              <Button href='/meet-the-team'>Meet the team</Button>
             </div>
           </div>
           <div className='text-center mt-4 lg:mt-0 lg:text-left lg:w-1/2'>
