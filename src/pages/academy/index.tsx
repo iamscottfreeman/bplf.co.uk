@@ -66,7 +66,8 @@ export default function About() {
                   <Button
                     href='https://www.picktime.com/fa097385-2756-4a36-a822-b7d866da754f'
                     target='_blank'
-                    className='text-4xl shadow-transparent shadow-2xl shadow-black'
+                    className='shadow-2xl shadow-black'
+                    xl
                   >
                     Book Now
                     <IconBook className='ml-4 inline-block align-middle w-9 h-9' />
