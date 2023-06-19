@@ -13,7 +13,7 @@ const getSortedFiles = async (dir) => {
     .map((file) => file.name);
 };
 
-export default gallery = async (req, res) => {
+const gallery = async (req, res) => {
   const dirRelativeToPublicFolder = 'gallery';
   const dir = path.resolve('./public/', dirRelativeToPublicFolder);
   const filenames = await getSortedFiles(dir);
@@ -21,7 +21,6 @@ export default gallery = async (req, res) => {
   const images = filenames.map((name) => {
     const src = path.join('/', dirRelativeToPublicFolder, name);
     const dimensions = sizeOf(`./public/gallery/${name}`);
-    console.log(name);
     const obj = {
       src: src,
       width: dimensions.width,
@@ -34,3 +33,5 @@ export default gallery = async (req, res) => {
 
   res.json(images);
 };
+
+export default gallery;

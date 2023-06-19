@@ -48,6 +48,11 @@ export default function Newsletter() {
         <section>
           <PageHeader backgroundImage={backgroundImage} title='Gallery' />
           <Container className='py-10'>
+            {isLoading && (
+              <div className='text-center'>
+                Loading ...
+              </div>
+            )}
             {!isLoading && (
               <>
                 <Gallery photos={photos} onClick={openLightbox} direction='column' margin={10} />
