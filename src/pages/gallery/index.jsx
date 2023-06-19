@@ -11,15 +11,9 @@ import Container from '@/components/atoms/Container';
 
 import backgroundImage from '../../images/stock/9.jpg';
 
-type Photo = {
-  src: string;
-  width: number;
-  height: number;
-};
-
 export default function Newsletter() {
   const [isLoading, setIsLoading] = useState(true);
-  const [photos, setPhotos] = useState<Photo[]>([]);
+  const [photos, setPhotos] = useState([]);
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
