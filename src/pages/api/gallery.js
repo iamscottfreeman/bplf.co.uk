@@ -13,7 +13,7 @@ const getSortedFiles = async (dir) => {
     .map((file) => file.name);
 };
 
-export default async (req, res) => {
+export default gallery = async (req, res) => {
   const dirRelativeToPublicFolder = 'gallery';
   const dir = path.resolve('./public/', dirRelativeToPublicFolder);
   const filenames = await getSortedFiles(dir);
