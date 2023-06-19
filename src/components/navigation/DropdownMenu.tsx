@@ -13,11 +13,19 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
       className='md:flex md:items-center'
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
+      onTouchEndCapture={(e) => {
+        //e.preventDefault();
+        //setVisible(!visible);
+      }}
     >
       <li className='w-100 md:w-auto'>
         <a
           href={href}
           className='hidden md:block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md px-3 py-2 text-sm font-medium'
+          onTouchEndCapture={(e) => {
+            //e.preventDefault();
+            //return false;
+          }}
         >
           {text}
           <svg

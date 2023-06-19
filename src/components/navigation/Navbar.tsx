@@ -8,18 +8,18 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className='sticky top-24 z-50 lg:relative bg-gray-800 text-offwhite lg:h-16 lg:top-0'>
+    <nav className='sticky top-24 z-50 md:relative bg-gray-800 text-offwhite md:h-16 md:top-0'>
       <div className='m-auto max-w-7xl px-0 lg:px-4'>
-        <div className='lg:flex lg:items-center lg:justify-between'>
-          <div className='h-16 inset-y-0 left-0 flex items-center lg:hidden'>
+        <div className='md:flex md:items-center md:justify-between'>
+          <div className='h-16 inset-y-0 left-0 flex items-center md:hidden'>
             <MobileMenuButton mobileMenuOpen={mobileMenuOpen} setMobileMenuOpen={setMobileMenuOpen} />
           </div>
           <div
             className={`${
               mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-            } min-h-screen lg:min-h-0 px-4 absolute w-full bg-gray-800 transition ease-in-out pb-8 lg:relative lg:translate-x-0 lg:px-0 lg:pb-0 lg:flex lg:flex-1 lg:items-center lg:justify-start lg:h-16`}
+            } min-h-screen md:min-h-0 px-4 absolute w-full bg-gray-800 transition ease-in-out pb-8 md:relative md:translate-x-0 md:px-0 md:pb-0 md:flex md:flex-1 md:items-center md:justify-start md:h-16`}
           >
-            <div className='flex flex-col space-y-4 lg:flex-row lg:space-y-0 lg:space-x-3'>
+            <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-0 lg:space-x-3'>
               <Link href='/'>Home</Link>
               <DropdownMenu href='/about' text='About Us'>
                 <DropdownItem href='/about'>About Us</DropdownItem>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <DropdownItem href='/drug-testing'>Drug Testing</DropdownItem>
                 <DropdownItem href='/banned-lifters'>Banned Lifters</DropdownItem>
               </DropdownMenu>
-              <Link href='/academy'>BPF Academy</Link>
+              <Link href='/academy'>Academy</Link>
             </div>
           </div>
         </div>

@@ -14,7 +14,7 @@ import Container from '../atoms/Container';
 
 const Header = () => {
   return (
-    <header className='bpf-header sticky top-0 z-50 lg:relative'>
+    <header className='bpf-header sticky top-0 z-50 md:relative'>
       <Container>
         <div className='flex items-center'>
           <Link href='/'>
@@ -22,7 +22,7 @@ const Header = () => {
           </Link>
           <div className='md:ml-2 flex flex-col flex-1'>
             <h1
-              className={`${fonts.header.className} m-0 text-center text-3xl md:text-4xl lg:text-5xl md:text-left uppercase font-bold md:mb-4`}
+              className={`${fonts.header.className} m-0 text-center text-3xl md:text-4xl lg:text-5xl md:text-left uppercase font-bold md:mb-4 leading-7`}
             >
               <Link href='/'>British Powerlifting Federation</Link>
             </h1>
