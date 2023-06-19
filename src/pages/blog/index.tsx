@@ -6,8 +6,8 @@ import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
+import BlogLink from '@/components/atoms/BlogLink';
 
-import BlogLink from './BlogLink';
 import backgroundImage from '../../images/stock/9.jpg';
 import marcus from './marcus.jpg';
 

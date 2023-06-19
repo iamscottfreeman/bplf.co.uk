@@ -6,11 +6,11 @@ import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
+import RulesLink from '@/components/atoms/RulesLink';
 
-import RulesLink from './RulesLink';
 import backgroundImage from '../../images/stock/9.jpg';
 
-export default function Newsletter() {
+export default function Rules() {
   return (
     <>
       <Head>

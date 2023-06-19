@@ -10,7 +10,7 @@ type Props = {
   isLast?: boolean;
 };
 
-const Result = ({ title, link, isLast = false }: Props) => {
+const ResultLink = ({ title, link, isLast = false }: Props) => {
   return (
     <>
       <h2 className={`${fonts.header.className} uppercase text-center md:text-right text-3xl col-span-2`}>
@@ -28,4 +28,4 @@ const Result = ({ title, link, isLast = false }: Props) => {
   );
 };
 
-export default Result;
+export default ResultLink;

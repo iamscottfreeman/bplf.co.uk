@@ -6,8 +6,8 @@ import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
+import NewsletterLink from '@/components/atoms/NewsletterLink';
 
-import NewsletterLink from './NewsletterLink';
 import backgroundImage from '../../images/stock/9.jpg';
 import img from '../../images/logo.png';
 
