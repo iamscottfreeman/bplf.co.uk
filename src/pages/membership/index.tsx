@@ -9,7 +9,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import awards from './awards.jpg';
 
 export default function Membership() {
@@ -22,7 +21,7 @@ export default function Membership() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Membership' />
+          <PageHeader title='Membership' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3'>

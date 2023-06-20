@@ -8,7 +8,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import marcus from './marcus.jpeg';
 import placeholder from './placeholder.png';
 
@@ -22,7 +21,7 @@ export default function MeetTheTeam() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Meet the Team' />
+          <PageHeader title='Meet the Team' />
           <Container className='grid grid-cols-1 justify-center w-fit py-10'>
             <div className='mb-10'>
               <div className='md:flex'>

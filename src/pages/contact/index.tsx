@@ -12,8 +12,6 @@ import IconPhone from '@/components/icons/IconPhone';
 import IconMail from '@/components/icons/IconMail';
 import IconPin from '@/components/icons/IconPin';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 export default function Contact() {
   return (
     <>
@@ -24,7 +22,7 @@ export default function Contact() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Contact Us' />
+          <PageHeader title='Contact Us' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row'>
               <div className='mb-10 lg:w-1/2 text-xl'>

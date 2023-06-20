@@ -8,7 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import img from './testing-your-strength.jpeg';
 
 export default function BlogPost() {
@@ -21,7 +20,7 @@ export default function BlogPost() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Testing Your Strength' />
+          <PageHeader title='Testing Your Strength' />
           <Container className='py-10 xl:w-2/3'>
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3 mr-4'>

@@ -8,8 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import RulesLink from '@/components/atoms/RulesLink';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 export default function Rules() {
   return (
     <>
@@ -20,7 +18,7 @@ export default function Rules() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Rules' />
+          <PageHeader title='Rules' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-2 items-center text-center gap-4'>
               <RulesLink

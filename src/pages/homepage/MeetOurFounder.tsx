@@ -32,8 +32,15 @@ const MeetOurFounder = () => {
               recreational sports, or to simply maintain a healthy lifestyle. From day one, we have always strived to
               meet the wellness needs of athletes, families and communities.
             </div>
-            <div>
-              <Button href='/meet-the-team'>Meet the team</Button>
+            <div className='flex flex-col md:flex-row justify-center md:justify-start space-x-4 space-y-4 -ml-4'>
+              <div>
+                <Button href='/meet-the-team' className='ml-4 mt-4'>
+                  Meet the team
+                </Button>
+              </div>
+              <div>
+                <Button href='/blog'>Read the Blog</Button>
+              </div>
             </div>
           </div>
           <div className='text-center mt-4 lg:mt-0 lg:text-left lg:w-1/2'>

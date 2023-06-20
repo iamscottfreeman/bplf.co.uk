@@ -1,17 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from './Container';
 import { fonts } from '@/helpers/fonts';
 
 type Props = {
-  backgroundImage: any;
   title: string;
 };
 
-const PageHeader = ({ backgroundImage, title }: React.PropsWithChildren<Props>) => {
+const PageHeader = ({ title }: React.PropsWithChildren<Props>) => {
+  const [image, setImage] = useState<string | undefined>();
+
+  useEffect(() => {
+    fetch('/api/header')
+      .then((res) => res.json())
+      .then((data) => setImage(data));
+  }, []);
+
   return (
     <div
       style={{
-        backgroundImage: `url(${backgroundImage.src})`
+        backgroundImage: `url(/headers/${image})`
       }}
       className='relative py-16 md:py-24 bg-cover bg-center'
     >

@@ -10,7 +10,6 @@ import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 import IconBook from '@/components/icons/IconBook';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import img1 from '././img1.jpg';
 import img2 from './img2.jpg';
 
@@ -24,7 +23,7 @@ export default function About() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='BPF Acadamy' />
+          <PageHeader title='BPF Acadamy' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row space-x-4 items-center'>
               <div className='lg:w-3/5'>

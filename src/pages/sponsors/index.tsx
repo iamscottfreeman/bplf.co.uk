@@ -8,7 +8,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import strengthShop from './strength-shop.jpg';
 import kabuki from './kabuki.webp';
 import zkc from './zkc.webp';
@@ -24,7 +23,7 @@ export default function Sponsors() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Sponsors' />
+          <PageHeader title='Sponsors' />
           <Container className='grid grid-cols-1 justify-center w-fit py-10'>
             <div>
               <h2 className={`${fonts.header.className} uppercase text-3xl mb-4`}>We are proudly supported by</h2>

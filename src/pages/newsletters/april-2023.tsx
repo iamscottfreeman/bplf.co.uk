@@ -8,8 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 export default function BlogPost() {
   return (
     <>
@@ -20,7 +18,7 @@ export default function BlogPost() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='April 2023' />
+          <PageHeader title='April 2023' />
           <Container className='py-10'>Newsletter coming soon...</Container>
         </section>
       </main>

@@ -6,7 +6,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import Button from '@/components/atoms/Button';
 
 export default function Testing() {
@@ -19,7 +18,7 @@ export default function Testing() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Drug Testing' />
+          <PageHeader title='Drug Testing' />
           <Container className='py-10'>
             <p className='mb-4'>
               1.8.1 At the discretion of the IPL World Office, Meet Directors will have the option to hold drug tested

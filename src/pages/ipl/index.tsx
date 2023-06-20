@@ -9,7 +9,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import iplLogo from '../../images/ipl-logo.jpg';
 
 export default function Ipl() {
@@ -22,7 +21,7 @@ export default function Ipl() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='About the IPL' />
+          <PageHeader title='About the IPL' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row space-x-4'>
               <div className='lg:w-3/5'>

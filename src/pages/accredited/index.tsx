@@ -8,7 +8,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import chris from './chris.webp';
 import joe from './joe.jpg';
 import sam from './sam.jpg';
@@ -24,7 +23,7 @@ export default function Accredited() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Accredited Gyms & Trainers' />
+          <PageHeader title='Accredited Gyms & Trainers' />
           <Container className='grid grid-cols-1 justify-center w-fit py-10'>
             <div className='mb-10'>
               <div className='md:flex'>

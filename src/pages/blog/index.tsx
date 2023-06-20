@@ -8,7 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import BlogLink from '@/components/atoms/BlogLink';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import marcus from './marcus.jpg';
 
 export default function Blog() {
@@ -21,7 +20,7 @@ export default function Blog() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Blog' />
+          <PageHeader title='Blog' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3 lg:mr-4'>

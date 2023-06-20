@@ -10,8 +10,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Spinner from '@/components/atoms/Spinner';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 type Photos = {
   src: string;
   width: number;
@@ -53,7 +51,7 @@ export default function Newsletter() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Gallery' />
+          <PageHeader title='Gallery' />
           <Container className='py-10'>
             {isLoading && (
               <div className='text-center'>

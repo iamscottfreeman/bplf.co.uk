@@ -5,15 +5,16 @@ import { fonts } from '@/helpers/fonts';
 import Container from '@/components/atoms/Container';
 import Slider from '@/components/atoms/Slider';
 
-import img1 from '../../images/stock/1.jpg';
-import img2 from '../../images/stock/2.jpg';
-import img3 from '../../images/stock/3.jpg';
-import img4 from '../../images/stock/4.jpg';
-import img5 from '../../images/stock/5.jpg';
-import img6 from '../../images/stock/6.jpg';
-import img7 from '../../images/stock/7.jpg';
-import img8 from '../../images/stock/8.jpg';
-import img9 from '../../images/stock/9.jpg';
+import img1 from '../../../public/homepage/01.jpg';
+import img2 from '../../../public/homepage/02.jpg';
+import img3 from '../../../public/homepage/03.jpg';
+import img4 from '../../../public/homepage/04.jpg';
+import img5 from '../../../public/homepage/05.jpg';
+import img6 from '../../../public/homepage/06.jpg';
+import img7 from '../../../public/homepage/07.jpg';
+import img8 from '../../../public/homepage/08.jpg';
+import img9 from '../../../public/homepage/09.jpg';
+import img10 from '../../../public/homepage/10.jpg';
 
 const Welcome = () => {
   return (
@@ -50,6 +51,7 @@ const Welcome = () => {
             <Image src={img7} alt='' className='rounded-md' />
             <Image src={img8} alt='' className='rounded-md' />
             <Image src={img9} alt='' className='rounded-md' />
+            <Image src={img10} alt='' className='rounded-md' />
           </Slider>
         </div>
       </Container>

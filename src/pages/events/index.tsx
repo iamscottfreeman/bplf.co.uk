@@ -9,7 +9,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import img01 from './01.jpg';
 import img02 from './02.jpg';
 import img03 from './03.jpg';
@@ -31,7 +30,7 @@ export default function Events() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Events' />
+          <PageHeader title='Events' />
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>

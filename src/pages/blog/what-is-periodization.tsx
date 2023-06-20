@@ -8,8 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 export default function BlogPost() {
   return (
     <>
@@ -20,7 +18,7 @@ export default function BlogPost() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='What is Periodization?' />
+          <PageHeader title='What is Periodization?' />
           <Container className='py-10 xl:w-2/3'>
             <div className='flex flex-col lg:flex-row lg:justify-center'>
               <div className='lg:w-2/3'>

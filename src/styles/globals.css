@@ -33,6 +33,15 @@ body {
   text-shadow: 0px 0px 10px rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%), 0 0 0 rgb(15 15 15 / 80%)
 }
 
+.text-shadow-xl {
+  text-shadow: 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%), 4px 4px 6px rgb(15 15 15 / 90%)
+}
+
 .react-images__view-image--isModal {
   margin: 0 auto;
+}
+
+.via-black-transparent {
+  --tw-gradient-to: rgb(0 0 0 / 50%) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 80%) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }

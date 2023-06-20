@@ -8,7 +8,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import aboutUs1 from './about-us-1.jpg';
 import aboutUs2 from './about-us-2.jpg';
 
@@ -22,7 +21,7 @@ export default function About() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='About Us' />
+          <PageHeader title='About Us' />
           <Container className='py-10'>
             <h2 className={`${fonts.header.className} uppercase text-center text-6xl mb-4`}>
               We are the British Powerlifting Federation

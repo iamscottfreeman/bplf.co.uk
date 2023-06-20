@@ -8,8 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import ResultLink from '@/components/atoms/ResultLink';
 
-import backgroundImage from '../../images/stock/9.jpg';
-
 export default function Results() {
   return (
     <>
@@ -20,7 +18,7 @@ export default function Results() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Previous British Records' />
+          <PageHeader title='Previous British Records' />
           <Container className='py-10'>
             <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2022</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>

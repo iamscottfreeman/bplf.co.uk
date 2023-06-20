@@ -6,7 +6,6 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import Button from '@/components/atoms/Button';
 
 export default function BannedLifters() {
@@ -19,7 +18,7 @@ export default function BannedLifters() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Banned Lifters' />
+          <PageHeader title='Banned Lifters' />
           <Container className='py-10'>
             <p className='mb-4'>The following lifters have been banned for life from the BPF and IPL.</p>
             <ul className='mb-4 ml-4 list-outside list-disc space-y-2'>

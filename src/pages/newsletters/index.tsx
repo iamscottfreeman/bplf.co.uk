@@ -8,7 +8,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import NewsletterLink from '@/components/atoms/NewsletterLink';
 
-import backgroundImage from '../../images/stock/9.jpg';
 import img from '../../images/logo.png';
 
 export default function Newsletter() {
@@ -21,7 +20,7 @@ export default function Newsletter() {
       <Navbar />
       <main>
         <section>
-          <PageHeader backgroundImage={backgroundImage} title='Newsletters' />
+          <PageHeader title='Newsletters' />
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3 lg:mr-4'>
