@@ -13,19 +13,11 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
       className='md:flex md:items-center'
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
-      onTouchEndCapture={(e) => {
-        //e.preventDefault();
-        //setVisible(!visible);
-      }}
     >
       <li className='w-100 md:w-auto'>
-        <a
-          href={href}
-          className='hidden md:block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md px-3 py-2 text-sm font-medium'
-          onTouchEndCapture={(e) => {
-            //e.preventDefault();
-            //return false;
-          }}
+        <span
+          className='select-none cursor-pointer hidden md:block text-gray-300 hover:bg-gray-700 hover:text-offwhite rounded-md px-3 py-2 text-sm font-medium'
+          onClick={() => setVisible(!visible)}
         >
           {text}
           <svg
@@ -38,7 +30,7 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
           >
             <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
           </svg>
-        </a>
+        </span>
         <span
           className='block text-gray-300 rounded-md px-3 py-2 text-sm font-medium md:hidden'
           onClick={() => setVisible(!visible)}
