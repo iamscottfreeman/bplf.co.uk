@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import Head from 'next/head';
-import Gallery from 'react-photo-gallery';
+import Gallery, { PhotoClickHandler } from 'react-photo-gallery';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 
 import Header from '@/components/header/Header';
@@ -8,12 +8,19 @@ import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
+import Spinner from '@/components/atoms/Spinner';
 
 import backgroundImage from '../../images/stock/9.jpg';
 
+type Photos = {
+  src: string;
+  width: number;
+  height: number;
+};
+
 export default function Newsletter() {
   const [isLoading, setIsLoading] = useState(true);
-  const [photos, setPhotos] = useState([]);
+  const [photos, setPhotos] = useState<Photos[]>([]);
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
@@ -27,7 +34,7 @@ export default function Newsletter() {
       });
   }, []);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
+  const openLightbox = useCallback<PhotoClickHandler>((event, { photo, index }) => {
     setCurrentImage(index);
     setViewerIsOpen(true);
   }, []);
@@ -50,7 +57,7 @@ export default function Newsletter() {
           <Container className='py-10'>
             {isLoading && (
               <div className='text-center'>
-                Loading ...
+                <Spinner />
               </div>
             )}
             {!isLoading && (

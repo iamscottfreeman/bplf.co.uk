@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import sizeOf from 'image-size';
+import { NextApiRequest, NextApiResponse } from 'next';
 
-const getSortedFiles = async (dir) => {
+const getSortedFiles = async (dir: string) => {
   const files = await fs.promises.readdir(dir);
   return files
     .map((fileName) => ({
@@ -13,7 +14,7 @@ const getSortedFiles = async (dir) => {
     .map((file) => file.name);
 };
 
-const gallery = async (req, res) => {
+const gallery = async (req: NextApiRequest, res: NextApiResponse) => {
   const dirRelativeToPublicFolder = 'gallery';
   const dir = path.resolve('./public/', dirRelativeToPublicFolder);
   const filenames = await getSortedFiles(dir);
