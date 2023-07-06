@@ -9,8 +9,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import img01 from './01.jpg';
-import img02 from './02.jpg';
 import img03 from './03.jpg';
 import img04 from './04.jpg';
 import img05 from './05.jpg';
@@ -34,48 +32,21 @@ export default function Events() {
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={img01} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
-                  IPL European and Commonwealth Championships
-                </h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>30th June - 2nd July 2023</p>
-                <p className='mb-2'>Tested and none tested platforms</p>
+                <Image src={img04} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Women of Iron</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>27th August 2023</p>
+                <p className='mb-2'>Prize meet</p>
                 <p className='mb-2'>
-                  Old Tyme Strength
+                  The BPF Academy
                   <br />
-                  Unit 1E
+                  Unit 3 Baily Brook Business Park
                   <br />
-                  Victoria Street
+                  Langley Mill
                   <br />
-                  Mansfield
-                  <br />
-                  NG18 5RR
-                </p>
-                <p className='mb-2'>SORRY PRE ORDER T SHIRTS NOW SOLD OUT</p>
-                <p className='mb-2'>
-                  <Button href='https://forms.gle/UZg339LPBaBT6U9RA' target='_blank'>
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={img02} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Mansfield Mania</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>5th - 6th August 2023</p>
-                <p className='mb-2'>Qualifier for 2024</p>
-                <p className='mb-2'>
-                  Old Tyme Strength
-                  <br />
-                  Unit 1E
-                  <br />
-                  Victoria Street
-                  <br />
-                  Mansfield
-                  <br />
-                  NG18 5RR
+                  NG16 4BE
                 </p>
                 <p className='mb-2'>
-                  <Button href='https://forms.gle/UZg339LPBaBT6U9RA' target='_blank'>
+                  <Button href='https://forms.gle/MjNyoChmXHYdkQ1KA' target='_blank'>
                     Entry Form
                   </Button>
                 </p>
@@ -96,26 +67,6 @@ export default function Events() {
                 </p>
                 <p className='mb-2'>
                   <Button href='https://forms.gle/mKtLC9rL6t4PfjZe8' target='_blank'>
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={img04} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Women of Iron</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>27th August 2023</p>
-                <p className='mb-2'>Prize meet</p>
-                <p className='mb-2'>
-                  The BPF Academy
-                  <br />
-                  Unit 3 Baily Brook Business Park
-                  <br />
-                  Langley Mill
-                  <br />
-                  NG16 4BE
-                </p>
-                <p className='mb-2'>
-                  <Button href='https://forms.gle/MjNyoChmXHYdkQ1KA' target='_blank'>
                     Entry Form
                   </Button>
                 </p>
