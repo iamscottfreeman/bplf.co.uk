@@ -35,8 +35,9 @@ export default function Results() {
               <ResultLink
                 title='NON TESTED STRICT CURL APRIL 2023'
                 link='/downloads/NON-TESTED-STRICKED-CURL-23-APRIL-2023.xlsx'
-                isLast
               />
+              <ResultLink title='Mens Para Bench May 2023' link='/downloads/mens-para-bench-2023.xlsx' />
+              <ResultLink title='Mens Para Deadlift May 2023' link='/downloads/mens-para-deadlift-2023.xlsx' isLast />
             </div>
           </Container>
         </section>
