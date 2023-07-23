@@ -25,7 +25,7 @@ export default function Results() {
                 link='/downloads/NON-TESTED-RAW-SINGAL-LIFT-records-28-MAY-2023-1.xlsx'
               />
               <ResultLink
-                title='NON TESTED FP CLASSIC RECORDS MAY 2023'
+                title='NON TESTED FP CLASSIC RAW RECORDS MAY 2023'
                 link='/downloads/NON-Tested-FP-CLASSIC-RAW-records.xlsx'
               />
               <ResultLink

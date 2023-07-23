@@ -75,7 +75,7 @@ export default function Events() {
                 <Image src={img05} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Day of the Dead</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>1st October 2023</p>
-                <p className='mb-2'>Prize meet</p>
+                <p className='mb-2'>Qualifier for 2024</p>
                 <p className='mb-2'>
                   The BPF Academy
                   <br />

@@ -12,14 +12,24 @@ export default function Testing() {
   return (
     <>
       <Head>
-        <title>Drug Testing | British Powerlifting Federation</title>
+        <title>Drug Testing and Results | British Powerlifting Federation</title>
       </Head>
       <Header />
       <Navbar />
       <main>
         <section>
-          <PageHeader title='Drug Testing' />
+          <PageHeader title='Drug Testing and Results' />
           <Container className='py-10'>
+            <h2 className='text-4xl mb-4'>Results</h2>
+            <div className='flex space-x-4'>
+              <p className='mb-4'>
+                <Button href='/downloads/DRUG-TEST-OUTCOME-2023.xlsx'>Testing Results 2023</Button>
+              </p>
+              <p className='mb-4'>
+                <Button href='/downloads/TESTING-RESOLTS.xlsx'>Testing Results 2022</Button>
+              </p>
+            </div>
+            <h2 className='text-4xl mt-12'>Rules</h2>
             <p className='mb-4'>
               1.8.1 At the discretion of the IPL World Office, Meet Directors will have the option to hold drug tested
               meets if they 1) apply for and pay the sanction fee to conduct a drug tested meet, and 2) follow all IPL
@@ -126,12 +136,6 @@ export default function Testing() {
               tested and non-tested) if he subsequently registers, attempts to register, or through oversight,
               participate in a IPL event without paying the applicable fine. This will be deemed a blatant disregard of
               the IPL rules.
-            </p>
-            <p className='mb-4'>
-              <Button href='/downloads/DRUG-TEST-OUTCOME-2023.xlsx'>Testing Results 2023</Button>
-            </p>
-            <p className='mb-4'>
-              <Button href='/downloads/TESTING-RESOLTS.xlsx'>Testing Results 2022</Button>
             </p>
           </Container>
         </section>

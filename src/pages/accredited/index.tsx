@@ -105,36 +105,6 @@ export default function Accredited() {
             <div className='mb-10'>
               <div className='md:flex'>
                 <div className='w-80 mr-4 mb-4 shrink-0'>
-                  <Image src={sam} alt='' className='w-80 rounded-md' />
-                </div>
-                <div>
-                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Sam</h2>
-                  <p className='mb-4 text-2xl font-bold'>Coach</p>
-                  <p className='mb-4 font-bold'>Qualification:</p>
-                  <p className='mb-4'>Level 4 in Physiology</p>
-                  <p className='mb-4'>Level 4 in Individual Performance Analysis</p>
-                  <p className='mb-4'>Level 4 in Sport and Exercise Psychology</p>
-                  <p className='mb-4'>Level 4 in Physical Activity for health</p>
-                  <p className='mb-4'>Level 3 Personal Trainer</p>
-                  <p className='mb-4'>Level 2 Gym Instructor</p>
-                  <p className='mb-4'>Certified Rockfit Instructor</p>
-                  <p className='mb-4'>Currently Studying: BSc Sports Science (Nottingham Trent)</p>
-                  <p className='mb-4 font-bold'>Experience:</p>
-                  <p className='mb-4'>
-                    Athlete - AWPC European Championships, Athlete - ABPU British Championships, Athlete - ABPU
-                    Qualifiers, Athlete - Strongwoman (The Unit)
-                  </p>
-                  <p className='mb-4 font-bold'>Specialist Areas:</p>
-                  <p className='mb-4'>
-                    Strength Sports, Weight loss / Body Composition Change, Motivation & Exercise Adherence
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='mb-10'>
-              <div className='md:flex'>
-                <div className='w-80 mr-4 mb-4 shrink-0'>
                   <Image src={jim} alt='' className='w-80 rounded-md' />
                 </div>
                 <div>

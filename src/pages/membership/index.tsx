@@ -39,7 +39,7 @@ export default function Membership() {
                 </p>
                 <h2 className={`${fonts.header.className} uppercase text-3xl mt-8 mb-4`}>Membership Information</h2>
                 <p className='mb-4'>
-                  All memberships purchased from July 1st 2022 will run until the 1st November 2023.
+                  All membership purchased from the 1st November 2022 will run until the 1st November 2023.
                 </p>
                 <p className='mb-4'>
                   All new 2023-2024 memberships will run until the 1st of November, 2024.

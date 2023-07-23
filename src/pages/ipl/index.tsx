@@ -45,11 +45,18 @@ export default function Ipl() {
                 </p>
                 <p className='mb-4'>BPF & IPL European President</p>
                 <p className='mb-4'>Marcus Griffiths</p>
-                <p className='mb-4'>
-                  <Button href='/downloads/2023-IPL-RULE-BOOK-FINAL-1-1.pdf' target='_blank'>
-                    Download IPL Rule Book
-                  </Button>
-                </p>
+                <div className='mb-4 flex flex-col space-y-2'>
+                  <div>
+                    <Button href='/downloads/2023-IPL-RULE-BOOK-FINAL-1-1.pdf' target='_blank'>
+                      Download IPL Rule Book
+                    </Button>
+                  </div>
+                  <div>
+                    <Button href='https://powerlifting-ipl.com/ipl-records-index/' target='_blank'>
+                      IPL European and World Records
+                    </Button>
+                  </div>
+                </div>
               </div>
               <div className='hidden lg:block lg:w-2/5'>
                 <Image src={iplLogo} alt='' className='rounded-md' />
