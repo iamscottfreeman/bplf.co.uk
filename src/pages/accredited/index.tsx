@@ -10,8 +10,8 @@ import Container from '@/components/atoms/Container';
 
 import chris from './chris.webp';
 import joe from './joe.jpg';
-import sam from './sam.jpg';
 import jim from './jim.jpg';
+import placeholder from './placeholder.png';
 
 export default function Accredited() {
   return (
@@ -125,6 +125,22 @@ export default function Accredited() {
                     Offering online coaching and 1-2-1 hands-on training for technique work or equipment specialist
                     training.
                   </p>
+                </div>
+              </div>
+            </div>
+
+            <div className='mb-10'>
+              <div className='md:flex'>
+                <div className='w-80 mr-4 mb-4 shrink-0'>
+                  <Image src={placeholder} alt='' className='w-80 rounded-md' />
+                </div>
+                <div>
+                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>
+                    Mathew Rocky Taylor
+                  </h2>
+                  <p className='mb-4 text-2xl font-bold'>Coach</p>
+                  <p className='mb-4 font-bold'>Qualifications:</p>
+                  <p className='mb-4'>UK Powerlifting & Strength Coach level 3</p>
                 </div>
               </div>
             </div>

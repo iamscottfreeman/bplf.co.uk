@@ -8,7 +8,13 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
+import Member from './Member';
 import marcus from './marcus.jpeg';
+import petra from './petra.jpg';
+import julie from './julie.jpeg';
+import charlotte from './charlotte.jpeg';
+import chris from './chris.jpeg';
+import scott from './scott.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -44,7 +50,7 @@ export default function MeetTheTeam() {
             <div className='mb-10'>
               <div className='md:flex'>
                 <div className='w-80 mr-4 mb-4'>
-                  <Image src={placeholder} alt='' className='w-80 rounded-md' />
+                  <Image src={petra} alt='' className='w-80 rounded-md' />
                 </div>
                 <div>
                   <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Lady Petra Kent</h2>
@@ -61,132 +67,27 @@ export default function MeetTheTeam() {
             </div>
 
             <div className='mb-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <div className='ml-4 mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
-              <div className='mb-4'>
-                <div className='flex'>
-                  <div className='w-40 mr-4 mb-4'>
-                    <Image src={placeholder} alt='' className='w-80 rounded-md' />
-                  </div>
-                  <div>
-                    <h2 className={`${fonts.header.className} uppercase text-red-600 text-2xl mb-2`}>
-                      Firstname Lastname
-                    </h2>
-                    <p className='mb-4'>Job / Volunteer role</p>
-                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur.</p>
-                  </div>
-                </div>
-              </div>
+              <Member name='Julie Churm' title='Table Team' image={julie} />
+              <Member name='Jodi Duncan' title='Table Team' image={placeholder} />
+              <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
+              <Member name='Nicola Elding' title='Newsletter' image={placeholder} />
+              <Member name='Scott Freeman' title='Website' image={scott} />
+              <Member name='John Griffiths' title='BPF / IPL National Referee' image={placeholder} />
+              <Member name='Toni Knot' title='Office & Trainee Table Team Admin' image={placeholder} />
+              <Member
+                name='David Mannering'
+                title='Technical Officer & BPF / IPL National Referee'
+                image={placeholder}
+              />
+              <Member name='Jane Mannering' title='BPF Senior Referee & Table Team' image={placeholder} />
+              <Member name='Chris Roberts' title='Technical Officer & BPF / IPL National Referee' image={chris} />
+              <Member
+                name='Tony Power'
+                title='Technical Officer & BPF / IPL International Referee'
+                image={placeholder}
+              />
+              <Member name='Paul Wardally' title='Platform Crew Manager' image={placeholder} />
+              <Member name='Charlotte Wearing' title='BPF / IPL National Referee' image={charlotte} />
             </div>
           </Container>
         </section>
