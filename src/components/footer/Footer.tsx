@@ -21,8 +21,8 @@ const Footer = () => {
         <div className='flex flex-col md:flex-row justify-between my-4 space-y-6 md:space-y-0'>
           <div className='flex flex-col mb-4 items-start'>
             <div className='mb-8 md:mb-0 flex items-center space-x-2 self-center'>
-              <Image src={bpfLogo} alt='British Powerlifting Federation' width={150} />
-              <Image src={iplLogo} alt='International Powerlifting League' width={150} />
+              <Image src={bpfLogo} alt='British Powerlifting Federation' width={150} className='mb-2' />
+              <Image src={iplLogo} alt='International Powerlifting League' width={150} className='mb-2' />
             </div>
             <div className='flex flex-col items-start space-y-4'>
               <div>

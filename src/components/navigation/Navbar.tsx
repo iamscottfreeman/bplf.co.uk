@@ -8,7 +8,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <nav className='sticky top-24 z-50 md:relative bg-gray-800 text-offwhite md:h-16 md:top-0'>
+    <nav className='navbar sticky top-24 z-50 md:relative bg-gray-800 text-offwhite md:h-16 md:top-0'>
       <div className='m-auto max-w-7xl px-0 lg:px-4'>
         <div className='md:flex md:items-center md:justify-between'>
           <div className='h-16 inset-y-0 left-0 flex items-center md:hidden'>

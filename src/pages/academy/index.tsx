@@ -10,7 +10,7 @@ import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 import IconBook from '@/components/icons/IconBook';
 
-import img1 from '././img1.jpeg';
+import img1 from '././img1.jpg';
 import img2 from './img2.jpg';
 
 export default function About() {

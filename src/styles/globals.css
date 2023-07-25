@@ -17,6 +17,10 @@ body {
   color:  var(--offblack);
 }
 
+.navbar {
+  top: 91px;
+}
+
 .bg-offblack {
   background-color: var(--offblack);
 }

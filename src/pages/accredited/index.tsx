@@ -8,7 +8,7 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
-import chris from './chris.webp';
+import chris from './chris.jpg';
 import joe from './joe.jpg';
 import jim from './jim.jpg';
 import placeholder from './placeholder.png';

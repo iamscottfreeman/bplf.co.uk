@@ -9,11 +9,11 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
 import Member from './Member';
-import marcus from './marcus.jpeg';
+import marcus from './marcus.jpg';
 import petra from './petra.jpg';
-import julie from './julie.jpeg';
-import charlotte from './charlotte.jpeg';
-import chris from './chris.jpeg';
+import julie from './julie.jpg';
+import charlotte from './charlotte.jpg';
+import chris from './chris.jpg';
 import scott from './scott.jpg';
 import placeholder from './placeholder.png';
 

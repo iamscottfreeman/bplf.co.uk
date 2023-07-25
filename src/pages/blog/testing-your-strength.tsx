@@ -8,7 +8,7 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import img from './testing-your-strength.jpeg';
+import img from './testing-your-strength.jpg';
 
 export default function BlogPost() {
   return (

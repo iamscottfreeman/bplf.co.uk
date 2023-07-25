@@ -9,9 +9,9 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
 import strengthShop from './strength-shop.jpg';
-import kabuki from './kabuki.webp';
-import zkc from './zkc.webp';
-import strictCurl from './strict-curl.webp';
+import kabuki from './kabuki.jpg';
+import zkc from './zkc.jpg';
+import strictCurl from './strict-curl.jpg';
 
 export default function Sponsors() {
   return (

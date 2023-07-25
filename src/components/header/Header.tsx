@@ -18,7 +18,7 @@ const Header = () => {
       <Container>
         <div className='flex items-center'>
           <Link href='/'>
-            <Image src={logo} alt='British Powerlifting Federation' width={144} className='w-20 md:w-36' />
+            <Image src={logo} alt='British Powerlifting Federation' className='w-16 md:w-32 m-2' />
           </Link>
           <div className='md:ml-2 flex flex-col flex-1'>
             <h1
