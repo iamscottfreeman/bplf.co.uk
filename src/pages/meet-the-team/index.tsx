@@ -15,6 +15,8 @@ import julie from './julie.jpg';
 import charlotte from './charlotte.jpg';
 import chris from './chris.jpg';
 import scott from './scott.jpg';
+import jodi from './jodi.jpg';
+import paul from './paul.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -68,10 +70,10 @@ export default function MeetTheTeam() {
 
             <div className='mb-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Julie Churm' title='Table Team' image={julie} />
-              <Member name='Jodi Duncan' title='Table Team' image={placeholder} />
+              <Member name='Jodi Duncan' title='Table Team' image={jodi} />
               <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
               <Member name='Nicola Elding' title='Newsletter' image={placeholder} />
-              <Member name='Scott Freeman' title='Website' image={scott} />
+              <Member name='Scott Freeman' title='Website Developer & Tech Support' image={scott} />
               <Member name='John Griffiths' title='BPF / IPL National Referee' image={placeholder} />
               <Member name='Toni Knot' title='Office & Trainee Table Team Admin' image={placeholder} />
               <Member
@@ -86,7 +88,7 @@ export default function MeetTheTeam() {
                 title='Technical Officer & BPF / IPL International Referee'
                 image={placeholder}
               />
-              <Member name='Paul Wardally' title='Platform Crew Manager' image={placeholder} />
+              <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
               <Member name='Charlotte Wearing' title='BPF / IPL National Referee' image={charlotte} />
             </div>
           </Container>

@@ -8,10 +8,15 @@ import Footer from '@/components/footer/Footer';
 import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 
+import ots from './ots.jpg';
+import mayhem from './mayhem.jpg';
 import chris from './chris.jpg';
 import joe from './joe.jpg';
 import jim from './jim.jpg';
 import placeholder from './placeholder.png';
+import Link from 'next/link';
+import IconFacebook from '@/components/icons/IconFacebook';
+import IconInstagram from '@/components/icons/IconInstagram';
 
 export default function Accredited() {
   return (
@@ -25,10 +30,81 @@ export default function Accredited() {
         <section>
           <PageHeader title='Accredited Gyms & Trainers' />
           <Container className='grid grid-cols-1 justify-center w-fit py-10'>
+            <h2 className={`${fonts.header.className} uppercase text-7xl mb-4`}>Gyms</h2>
+            <div className='mb-10'>
+              <div className='md:flex'>
+                <div className='w-80 mr-4 mb-4 shrink-0'>
+                  <Image src={ots} alt='' className='w-80 rounded-md' />
+                </div>
+                <div>
+                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>
+                    Old Tyme Strength
+                  </h2>
+                  <p className='font-bold'>Location:</p>
+                  <p className='mb-4'>
+                    Unit 1E Victoria Street
+                    <br />
+                    Mansfield
+                    <br />
+                    Nottinghamshire
+                    <br />
+                    NG18 5RR
+                  </p>
+                  <p className='font-bold'>Website:</p>
+                  <p className='mb-4'>
+                    <Link
+                      href='https://www.oldtymestrength.com/'
+                      target='_blank'
+                      className='underline transition-colors text-blue-500 hover:text-red-700'
+                    >
+                      oldtymestrength.com
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='mb-10'>
+              <div className='md:flex'>
+                <div className='w-80 mr-4 mb-4 shrink-0'>
+                  <Image src={mayhem} alt='' className='w-80 rounded-md' />
+                </div>
+                <div>
+                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Mayhem Gym</h2>
+                  <p className='font-bold'>Location:</p>
+                  <p className='mb-4'>
+                    6 Bittern Way
+                    <br />
+                    Boston
+                    <br />
+                    PE21 7NX
+                  </p>
+                  <p className='font-bold'>Website:</p>
+                  <p className='mb-4'>
+                    <Link
+                      href='https://mayhem-gym.co.uk/'
+                      target='_blank'
+                      className='underline transition-colors text-blue-500 hover:text-red-700'
+                    >
+                      mayhem-gym.co.uk
+                    </Link>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-7xl mt-20 mb-4`}>Trainers</h2>
             <div className='mb-10'>
               <div className='md:flex'>
                 <div className='w-80 mr-4 mb-4 shrink-0'>
                   <Image src={chris} alt='' className='w-80 rounded-md' />
+                  <div className='flex space-x-2 mt-2 justify-center'>
+                    <Link href='https://www.facebook.com/oldtymestrengthcoach' target='_blank'>
+                      <IconFacebook className='fill-gray-300 sm:w-14 sm:h-14 hover:fill-gray-100 transition-colors' />
+                    </Link>
+                    <Link href='https://www.instagram.com/sports_science_dad/' target='_blank'>
+                      <IconInstagram className='fill-gray-300 sm:w-14 sm:h-14 hover:fill-gray-100 transition-colors' />
+                    </Link>
+                  </div>
                 </div>
                 <div>
                   <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Chris</h2>
