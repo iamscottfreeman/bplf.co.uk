@@ -49,3 +49,12 @@ body {
   --tw-gradient-to: rgb(0 0 0 / 50%) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 80%) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
+
+@media (min-width: 1024px) {
+  .worlds-promo--background {
+    background-image: url('/images/ipl-banner.png');
+  }
+  .worlds-promo--overlay {
+    background: rgba(255, 255, 255, 0.85);
+  }
+}

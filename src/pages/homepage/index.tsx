@@ -5,6 +5,7 @@ import Navbar from '@/components/navigation/Navbar';
 import Footer from '@/components/footer/Footer';
 
 import Hero from './Hero';
+import WorldsPromo from './WorldsPromo';
 import Welcome from './Welcome';
 import Testimonials from './Testimonials';
 import MeetOurFounder from './MeetOurFounder';
@@ -19,6 +20,7 @@ export default function Homepage() {
       <Navbar />
       <main>
         <Hero />
+        <WorldsPromo />
         <Welcome />
         <Testimonials />
         <MeetOurFounder />
