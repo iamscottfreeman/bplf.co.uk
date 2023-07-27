@@ -8,7 +8,7 @@ export default async function handler(req, res) {
       secure: true,
       auth: {
         user: 'apikey',
-        pass: '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'
+        pass: process.env.SENDGRID_API
       }
     });
 
