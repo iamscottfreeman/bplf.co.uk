@@ -11,6 +11,7 @@ import Button from '@/components/atoms/Button';
 import IconPhone from '@/components/icons/IconPhone';
 import IconMail from '@/components/icons/IconMail';
 import IconPin from '@/components/icons/IconPin';
+import ContactForm from '@/components/atoms/ContactForm';
 
 export default function Contact() {
   return (
@@ -24,8 +25,8 @@ export default function Contact() {
         <section>
           <PageHeader title='Contact Us' />
           <Container className='py-10'>
-            <div className='flex flex-col lg:flex-row'>
-              <div className='mb-10 lg:w-1/2 text-xl'>
+            <div className='flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:space-x-4'>
+              <div className='lg:w-1/3 text-xl'>
                 <h2 className={`${fonts.header.className} uppercase text-3xl mb-4`}>We're here to help</h2>
                 <p className='mb-6'>
                   <Link href='mailto:bpf.secretary@gmail.com'>
@@ -50,16 +51,19 @@ export default function Contact() {
                   </Link>
                 </p>
               </div>
-              <div className='xl:w-1/4'></div>
-              <div className='lg:w-1/2 xl:w-1/4 xl:ml-0 lg:ml-10'>
-                <h2 className={`${fonts.header.className} uppercase text-3xl mb-4`}>Feedback</h2>
+              <div className='lg:w-1/3'>
+                <h2 className={`${fonts.header.className} uppercase text-3xl mb-4`}>Contact Form</h2>
+                <ContactForm />
+              </div>
+              <div className='lg:w-1/3'>
+                <h2 className={`${fonts.header.className} uppercase text-3xl mb-4`}>Event Feedback</h2>
                 <p className='mb-4'>
                   If you attended a British Powerlifting Federation event and would like to leave feedback on your
                   experience, please do so in our feedback form.
                 </p>
                 <p>
                   <Button href='https://forms.gle/6P8iuGb4NBfzueLV7' target='_blank'>
-                    Feedback Form
+                    Event Feedback Form
                   </Button>
                 </p>
               </div>
