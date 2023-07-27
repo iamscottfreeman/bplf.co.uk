@@ -21,7 +21,6 @@
     "image-size": "^1.0.2",
     "keen-slider": "^6.8.5",
     "next": "^13.4.8",
-    "nodemailer": "^6.9.4",
     "patch-package": "^7.0.0",
     "postcss": "8.4.24",
     "postinstall-postinstall": "^2.1.0",
