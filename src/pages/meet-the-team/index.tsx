@@ -69,27 +69,40 @@ export default function MeetTheTeam() {
             </div>
 
             <div className='mb-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Julie Churm' title='Table Team' image={julie} />
-              <Member name='Jodi Duncan' title='Table Team' image={jodi} />
+              <Member name='Peter Battle' title='BPF Referee & Complaints Officer' image={placeholder} />
+              <Member name='Julie Churm' title='Staff Official' image={placeholder} />
+              <Member name='Damian Copeland' title='Staff Official' image={placeholder} />
+              <Member name='Izzy Cotton' title='Staff Official' image={placeholder} />
+              <Member name='Jodi Duncan' title='Staff Official' image={placeholder} />
               <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
-              <Member name='Nicola Elding' title='Newsletter' image={placeholder} />
-              <Member name='Scott Freeman' title='Website Developer & Tech Support' image={scott} />
+              <Member
+                name='Nicola Eldridge'
+                title='BPF/ IPL National Referee & Newsletter Editor in Chief'
+                image={placeholder}
+              />
+              <Member name='Scott Freeman' title='Staff Official & Website Manager' image={placeholder} />
               <Member name='John Griffiths' title='BPF / IPL National Referee' image={placeholder} />
-              <Member name='Toni Knot' title='Office & Trainee Table Team Admin' image={placeholder} />
+              <Member name='Philip Hadley' title='IPL National Referee ' image={placeholder} />
+              <Member name='Jake Henderson' title='BPF/ IPL National Referee' image={placeholder} />
+              <Member name='Toni Knot' title='Staff Official' image={placeholder} />
               <Member
                 name='David Mannering'
-                title='Technical Officer & BPF / IPL National Referee'
+                title='Technical Officer & Senior BPF / IPL National Referee'
                 image={placeholder}
               />
-              <Member name='Jane Mannering' title='BPF Senior Referee & Table Team' image={placeholder} />
-              <Member name='Chris Roberts' title='Technical Officer & BPF / IPL National Referee' image={chris} />
+              <Member name='Jane Mannering' title='BPF Senior Referee & Staff Official' image={placeholder} />
+              <Member name='Lucy Moore' title='Staff Official' image={placeholder} />
+              <Member name='Jim Nuttall' title='Trainee Referee' image={placeholder} />
               <Member
                 name='Tony Power'
-                title='Technical Officer & BPF / IPL International Referee'
+                title='Trainee Technical Officer & Senior BPF / IPL International Referee'
                 image={placeholder}
               />
-              <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
-              <Member name='Charlotte Wearing' title='BPF / IPL National Referee' image={charlotte} />
+              <Member name='Chris Roberts' title='BPF / IPL International Referee' image={placeholder} />
+              <Member name='Bekkie Roughton' title='Staff Official' image={placeholder} />
+              <Member name='Heather Swane' title='BPF Referee' image={placeholder} />
+              <Member name='Paul Wardally' title='Platform Crew Manager' image={placeholder} />
+              <Member name='Charlotte Wearing' title='BPF / IPL National Referee ' image={placeholder} />
             </div>
           </Container>
         </section>

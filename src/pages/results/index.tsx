@@ -21,6 +21,14 @@ export default function Results() {
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
+                title='TESTED RAW SINGLE LIFT RECORDS AUGUST 2023'
+                link='/downloads/TESTED-RAW-SINGAL-LIFT-records.xlsx'
+              />
+              <ResultLink
+                title='TESTED FP CLASSIC RAW RECORDS AUGUST 2023'
+                link='/downloads/Tested-FP-RAW-records-template.xslx'
+              />
+              <ResultLink
                 title='NON TESTED RAW SINGLE LIFT RECORDS MAY 2023'
                 link='/downloads/NON-TESTED-RAW-SINGAL-LIFT-records-28-MAY-2023-1.xlsx'
               />
