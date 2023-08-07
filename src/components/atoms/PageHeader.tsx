@@ -4,9 +4,10 @@ import { fonts } from '@/helpers/fonts';
 
 type Props = {
   title: string;
+  subTitle?: string;
 };
 
-const PageHeader = ({ title }: React.PropsWithChildren<Props>) => {
+const PageHeader = ({ title, subTitle }: React.PropsWithChildren<Props>) => {
   const [image, setImage] = useState<string | undefined>();
 
   useEffect(() => {
@@ -26,6 +27,7 @@ const PageHeader = ({ title }: React.PropsWithChildren<Props>) => {
       <Container className='relative z-10 text-offwhite text-center md:text-left text-shadow-xl'>
         <h2 className={`${fonts.header.className} uppercase`}>
           <div className='text-offwhite text-5xl md:text-6xl lg:text-8xl'>{title}</div>
+          {subTitle && <div className='-mt-2 text-offwhite text-4xl md:text-5xl lg:text-7xl'>{subTitle}</div>}
         </h2>
       </Container>
     </div>

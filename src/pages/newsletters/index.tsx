@@ -25,10 +25,15 @@ export default function Newsletter() {
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3 lg:mr-4'>
                 <div className='md:grid grid-cols-3 items-center text-center gap-4'>
-                  <NewsletterLink title='April 2023' link='/newsletters/april-2023' extract='' isLast />
+                  <NewsletterLink
+                    title='April 2023'
+                    link='/newsletters/april-2023'
+                    extract='Welcome to our first Newsletter! Meet the BPF founders and be introduced to some of our members.'
+                    isLast
+                  />
                 </div>
               </div>
-              <div className='lg:w-1/3'>
+              <div className='hidden lg:block lg:w-1/3'>
                 <Image src={img} alt='' className='rounded-md' />
               </div>
             </div>
