@@ -186,6 +186,13 @@ export default function Events() {
                   </Button>
                 </p>
               </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  IPL Tested Commonwealth Championship
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>24th - 26th October 2024</p>
+                <p className='mb-2'>Nauru International, FW38+VJ8, Yaren, Nauru</p>
+              </div>
             </div>
           </Container>
         </section>

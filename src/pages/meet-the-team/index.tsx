@@ -17,6 +17,13 @@ import chris from './chris.jpg';
 import scott from './scott.jpg';
 import jodi from './jodi.jpg';
 import paul from './paul.jpg';
+import tony from './tony.jpg';
+import nicola from './nicola.jpg';
+import jake from './jake.jpg';
+import heather from './heather.jpg';
+import izzy from './izzy.jpg';
+import lucy from './lucy.jpg';
+import bekkie from './bekkie.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -68,41 +75,50 @@ export default function MeetTheTeam() {
               </div>
             </div>
 
-            <div className='mb-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Peter Battle' title='BPF Referee & Complaints Officer' image={placeholder} />
-              <Member name='Julie Churm' title='Staff Official' image={placeholder} />
-              <Member name='Damian Copeland' title='Staff Official' image={placeholder} />
-              <Member name='Izzy Cotton' title='Staff Official' image={placeholder} />
-              <Member name='Jodi Duncan' title='Staff Official' image={placeholder} />
-              <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
-              <Member
-                name='Nicola Eldridge'
-                title='BPF/ IPL National Referee & Newsletter Editor in Chief'
-                image={placeholder}
-              />
-              <Member name='Scott Freeman' title='Staff Official & Website Manager' image={placeholder} />
-              <Member name='John Griffiths' title='BPF / IPL National Referee' image={placeholder} />
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL International Referees</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Tony Power' title='IPL International Referee & Trainee Technical Officer' image={tony} />
+              <Member name='Chris Roberts' title='IPL International Referee' image={chris} />
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL National Referees</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Nicola Elding' title='IPL National Referee & Newsletter Editor in Chief' image={nicola} />
+              <Member name='John Griffiths' title='IPL National Referee' image={placeholder} />
               <Member name='Philip Hadley' title='IPL National Referee ' image={placeholder} />
-              <Member name='Jake Henderson' title='BPF/ IPL National Referee' image={placeholder} />
-              <Member name='Toni Knot' title='Staff Official' image={placeholder} />
-              <Member
-                name='David Mannering'
-                title='Technical Officer & Senior BPF / IPL National Referee'
-                image={placeholder}
-              />
-              <Member name='Jane Mannering' title='BPF Senior Referee & Staff Official' image={placeholder} />
-              <Member name='Lucy Moore' title='Staff Official' image={placeholder} />
+              <Member name='Jake Henderson' title='IPL National Referee' image={jake} />
+              <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={placeholder} />
+              <Member name='Charlotte Wearing' title='IPL National Referee ' image={charlotte} />
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>BPF National Referees</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Peter Battle' title='BPF National Referee & Complaints Officer' image={placeholder} />
+              <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
+              <Member name='Jane Mannering' title='BPF National Referee' image={placeholder} />
+              <Member name='Heather Swain' title='BPF National Referee' image={heather} />
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Trainee Referees</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Jim Nuttall' title='Trainee Referee' image={placeholder} />
-              <Member
-                name='Tony Power'
-                title='Trainee Technical Officer & Senior BPF / IPL International Referee'
-                image={placeholder}
-              />
-              <Member name='Chris Roberts' title='BPF / IPL International Referee' image={placeholder} />
-              <Member name='Bekkie Roughton' title='Staff Official' image={placeholder} />
-              <Member name='Heather Swane' title='BPF Referee' image={placeholder} />
-              <Member name='Paul Wardally' title='Platform Crew Manager' image={placeholder} />
-              <Member name='Charlotte Wearing' title='BPF / IPL National Referee ' image={placeholder} />
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Staff Officials</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Damian Copeland' title='Staff Official' image={placeholder} />
+              <Member name='Izzy Cotton' title='Staff Official' image={izzy} />
+              <Member name='Jodi Duncan' title='Staff Official' image={jodi} />
+              <Member name='Julie Churm' title='Staff Official' image={julie} />
+              <Member name='Scott Freeman' title='Staff Official & Website Manager' image={scott} />
+              <Member name='Toni Knot' title='Staff Official' image={placeholder} />
+              <Member name='Lucy Moore' title='Staff Official' image={lucy} />
+              <Member name='Bekkie Roughton' title='Staff Official' image={bekkie} />
+            </div>
+
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Platform Crew</h2>
+            <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
             </div>
           </Container>
         </section>
