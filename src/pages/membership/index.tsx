@@ -26,12 +26,6 @@ export default function Membership() {
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3'>
                 <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Join the BPF</h2>
-                <p className='mb-4'>By signing up to the British Powerlifting Federation, you will receive:</p>
-                <ul className='mb-4 list-inside list-disc'>
-                  <li>Benefit 1</li>
-                  <li>Benefit 2</li>
-                  <li>Benefit 3</li>
-                </ul>
                 <p className='mb-4'>
                   <Button href='https://forms.gle/UXePXxfwFc3wVi7k8' target='_blank'>
                     Membership Form
