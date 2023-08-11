@@ -112,7 +112,7 @@ export default function Events() {
                   CV7 8JG
                 </p>
                 <p className='mb-2'>
-                  <Button href='https://ipl-tested-world-champs.scottfreeman.net/' target='_blank'>
+                  <Button href='https://events.bplf.co.uk/worlds2023' target='_blank'>
                     Entry Form
                   </Button>
                 </p>
