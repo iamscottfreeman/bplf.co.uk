@@ -14,6 +14,7 @@ const SEO = () => {
         url,
         title,
         description,
+        type: 'website',
         images: [
           {
             url: 'https://bplf.co.uk/images/og-image.jpg',
