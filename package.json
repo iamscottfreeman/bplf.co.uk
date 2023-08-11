@@ -21,6 +21,7 @@
     "image-size": "^1.0.2",
     "keen-slider": "^6.8.6",
     "next": "^13.4.13",
+    "next-seo": "^6.1.0",
     "patch-package": "^8.0.0",
     "postcss": "8.4.27",
     "postinstall-postinstall": "^2.1.0",
