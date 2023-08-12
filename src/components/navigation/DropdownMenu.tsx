@@ -31,9 +31,13 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
             <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
           </svg>
         </span>
-        <span
+        <a
+          href='#'
           className='block text-gray-300 rounded-md px-3 py-2 text-sm font-medium md:hidden'
-          onClick={() => setVisible(!visible)}
+          onClick={(e) => {
+            e.preventDefault();
+            setVisible(!visible);
+          }}
         >
           {text}
           <svg
@@ -56,7 +60,7 @@ const DropdownMenu = ({ href, text, children }: PropsWithChildren<Props>) => {
           >
             <path strokeLinecap='round' strokeLinejoin='round' d='M4.5 15.75l7.5-7.5 7.5 7.5' />
           </svg>
-        </span>
+        </a>
         <ul
           className={`${
             visible ? 'block' : 'hidden'

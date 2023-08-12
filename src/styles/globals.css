@@ -21,6 +21,12 @@ body {
   top: 91px;
 }
 
+.mobile-menu {
+  overflow: auto;
+  height: calc(100vh - 155px);
+  min-height: auto;
+}
+
 .bg-offblack {
   background-color: var(--offblack);
 }

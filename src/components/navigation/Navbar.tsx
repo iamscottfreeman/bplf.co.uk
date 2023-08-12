@@ -16,7 +16,7 @@ const Navbar = () => {
           </div>
           <div
             className={`${
-              mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
+              mobileMenuOpen ? 'translate-x-0 mobile-menu' : '-translate-x-full'
             } min-h-screen md:min-h-0 px-4 absolute w-full bg-gray-800 transition ease-in-out pb-8 md:relative md:translate-x-0 md:px-0 md:pb-0 md:flex md:flex-1 md:items-center md:justify-start md:h-16`}
           >
             <div className='flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-0 lg:space-x-3'>
