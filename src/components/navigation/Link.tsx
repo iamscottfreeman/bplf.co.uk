@@ -14,7 +14,7 @@ const Link = ({ href, children }: React.PropsWithChildren<Props>) => {
       href={href}
       className={`${
         current ? 'bg-gray-900 text-offwhite' : 'text-gray-300 hover:bg-gray-700 hover:text-offwhite'
-      } rounded-md px-3 py-2 text-sm font-medium`}
+      } rounded-md px-2 lg:px-3 py-2 text-sm font-medium`}
     >
       {children}
     </a>

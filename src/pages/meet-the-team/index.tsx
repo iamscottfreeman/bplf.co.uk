@@ -44,7 +44,7 @@ export default function MeetTheTeam() {
                   <Image src={marcus} alt='' className='w-80 rounded-md' />
                 </div>
                 <div>
-                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Marcus Griffith</h2>
+                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Marcus Griffiths</h2>
                   <p className='mb-4 text-2xl font-bold'>President of the British Powerlifting Federation</p>
                   <p className='mb-4 text-xl font-bold'>European President of the International Powerlifting League</p>
                   <p className='mb-4'>Founder of British Powerlifting Federation & World Powerlifting Union</p>

@@ -24,6 +24,7 @@ const Navbar = () => {
               <DropdownMenu href='/about' text='About Us'>
                 <DropdownItem href='/about'>About Us</DropdownItem>
                 <DropdownItem href='/meet-the-team'>Meet the Team</DropdownItem>
+                <DropdownItem href='/academy'>Academy</DropdownItem>
                 <DropdownItem href='/sponsors'>Sponsors</DropdownItem>
                 <DropdownItem href='/ipl'>About the IPL</DropdownItem>
                 <DropdownItem href='/contact'>Contact Us</DropdownItem>
@@ -46,7 +47,11 @@ const Navbar = () => {
                 <DropdownItem href='/drug-testing'>Drug Testing & Results</DropdownItem>
                 <DropdownItem href='/banned-lifters'>Banned Lifters</DropdownItem>
               </DropdownMenu>
-              <Link href='/academy'>Academy</Link>
+              <DropdownMenu href='/strict-curl/events' text='Strict Curl'>
+                <DropdownItem href='/strict-curl/events'>Strict Curl Events</DropdownItem>
+                <DropdownItem href='/strict-curl/records'>Strict Curl Records</DropdownItem>
+                <DropdownItem href='/strict-curl/rules'>Strict Curl Rules</DropdownItem>
+              </DropdownMenu>
             </div>
           </div>
         </div>
