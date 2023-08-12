@@ -24,12 +24,11 @@ export default function Rules() {
               <RulesLink
                 title='Rule Book 2023'
                 link='https://rawpowerlifting.com/wp-content/uploads/2023/05/2023-General-Rules.pdf'
-                isLast
               />
             </div>
             <div>
               <div>
-                <p className='mb-2'>
+                <p className='text-3xl mt-10 mb-2'>
                   <strong>BRITISH STRICT CURL FEDERATION RULES</strong>
                 </p>
                 <p className='mb-2'>
