@@ -22,6 +22,9 @@ export default function CompetitionResults() {
           <Container className='py-10'>
             <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2023</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
+              <ResultLink title='DAY OF THE DEAD 2023' link='/downloads/DAY-OF-THE-DEAD FULL COM.xls' />
+              <ResultLink title='Mansfield May 2023' link='/downloads/mansfeild-21.05.2023.xls' />
+              <ResultLink title='Monty Crown 2023' link='/downloads/Monty-Crown-05-02-2023.xls' />
               <ResultLink title='RECORD BREAKERS 2023' link='/downloads/record-brackets-nov-12-2022.xls' />
               <ResultLink title='MANSFIELD MANIA 2023' link='/downloads/Mansfield-Mania.xlsx' />
               <ResultLink
