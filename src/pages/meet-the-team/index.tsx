@@ -24,6 +24,7 @@ import heather from './heather.jpg';
 import izzy from './izzy.jpg';
 import lucy from './lucy.jpg';
 import bekkie from './bekkie.jpg';
+import jim from './jim.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -101,7 +102,7 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Trainee Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Jim Nuttall' title='Trainee Referee' image={placeholder} />
+              <Member name='Jim Nuttall' title='Trainee Referee' image={jim} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Staff Officials</h2>
