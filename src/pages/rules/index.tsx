@@ -23,15 +23,11 @@ export default function Rules() {
             <div className='md:grid grid-cols-2 items-center text-center gap-4'>
               <RulesLink
                 title='IPL Rule Book 2023'
-                link='https://www.bplf.co.uk/wp-content/uploads/sites/21/2023/05/2023-IPL-RULE-BOOK-FINAL-1-1.pdf.pagespeed.ce.UVd1cDcUTu.pdf'
+                link='https://powerlifting-ipl.com/wp-content/uploads/2023/03/2023-IPL-RULE-BOOK-FINAL-1.pdf'
               />
               <RulesLink
                 title='IPL Rule Book 2022'
-                link='https://www.bplf.co.uk/wp-content/uploads/sites/21/2022/04/2022-IPL-RULE-BOOK-FINAL-V1.-1-1-2022-2.pdf.pagespeed.ce.Gin6lYYlEe.pdf'
-              />
-              <RulesLink
-                title='IPL Rule Book 2021'
-                link='https://www.bplf.co.uk/wp-content/uploads/sites/21/2022/04/2021-IPL-RULE-BOOK-FINAL-1-1-21.pdf.pagespeed.ce.jYmo-lc0hA.pdf'
+                link='https://powerlifting-ipl.com/wp-content/uploads/2022/06/2022-IPL-RULE-BOOK-FINAL-V2.-1-1-2022.pdf'
                 isLast
               />
             </div>
