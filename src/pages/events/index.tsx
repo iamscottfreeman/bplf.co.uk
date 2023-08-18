@@ -87,7 +87,7 @@ export default function Events() {
                 </p>
                 <p className='mb-2'>
                   <Button
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSdLaND0TXR9AuWliDY57T-rKk02w74TGfJUAWgrwIAuy2Y6sQ/viewform'
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSeq68Hem-jVzJ5mBVu5j6BGEhC8fO1vDYg85QRcusoVIzZl_A/viewform?vc=0&c=0&w=1&flr=0'
                     target='_blank'
                   >
                     Entry Form
@@ -181,7 +181,10 @@ export default function Events() {
                   PE21 7NX
                 </p>
                 <p className='mb-2'>
-                  <Button href='https://forms.gle/s2AEEvyQihuCYtqAA' target='_blank'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSepFqkr1v5QdY3BvBOHUKeFY1qdVFD821uEi2hNkjq5kKXbRA/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
                     Entry Form
                   </Button>
                 </p>
