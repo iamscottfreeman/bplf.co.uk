@@ -6,13 +6,14 @@ async function sendEmail(req, res) {
   try {
     const email = req.body.email;
     const name = req.body.name;
-    const verifiedEmailAddress = 'email@scottfreeman.net';
+    const toAddress = 'bpf.secretary@gmail.com';
+    const fromAddress = 'noreply@bplf.co.uk';
     const subject = 'BPF Website Contact Form Submission';
     const message = req.body.message.replace(/(?:\r\n|\r|\n)/g, '<br>');
 
     await sgMail.send({
-      to: verifiedEmailAddress,
-      from: verifiedEmailAddress,
+      to: toAddress,
+      from: fromAddress,
       replyTo: `${name} <${email}>`,
       subject,
       text: req.body.message,
