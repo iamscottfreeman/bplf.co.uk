@@ -5,7 +5,8 @@ import path from 'path';
 const getRandomImage = async (dir: string) => {
   const files = await fs.promises.readdir(dir);
   const fileNames = files.map((fileName) => fileName);
-  return fileNames[Math.floor(Math.random() * fileNames.length)];
+  const fileName = fileNames[Math.floor(Math.random() * fileNames.length)];
+  return fileName === '00.jpg' ? '01.jpg' : fileName;
 };
 
 const headerImage = async (req: NextApiRequest, res: NextApiResponse) => {

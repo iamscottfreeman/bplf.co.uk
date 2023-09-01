@@ -8,7 +8,7 @@ type Props = {
 };
 
 const PageHeader = ({ title, subTitle }: React.PropsWithChildren<Props>) => {
-  const [image, setImage] = useState<string | undefined>();
+  const [image, setImage] = useState<string>('00.jpg');
 
   useEffect(() => {
     fetch('/api/header')
