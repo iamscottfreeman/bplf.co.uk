@@ -26,6 +26,11 @@ export default function Newsletter() {
               <div className='lg:w-2/3 lg:mr-4'>
                 <div className='md:grid grid-cols-3 items-center text-center gap-4'>
                   <NewsletterLink
+                    title='September 2023'
+                    link='/downloads/newsletters/september-2023.pdf'
+                    extract='What a great few months we have had and pleased we have captured the moments!'
+                  />
+                  <NewsletterLink
                     title='April 2023'
                     link='/newsletters/april-2023'
                     extract='Welcome to our first Newsletter! Meet the BPF founders and be introduced to some of our members.'
