@@ -3,6 +3,7 @@ import MobileMenuButton from './MobileMenuButton';
 import DropdownItem from './DropdownItem';
 import DropdownMenu from './DropdownMenu';
 import Link from './Link';
+import IconBook from '../icons/IconBook';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -35,6 +36,9 @@ const Navbar = () => {
                 <DropdownItem href='/results/'>British Records 2023</DropdownItem>
                 <DropdownItem href='/results/competitions'>Competition Results</DropdownItem>
                 <DropdownItem href='/results/previous'>Previous British Records</DropdownItem>
+                <DropdownItem target='_blank' href='https://powerlifting-ipl.com/ipl-records-index/'>
+                  IPL European &amp; World Records
+                </DropdownItem>
               </DropdownMenu>
               <DropdownMenu href='/blog' text='Community'>
                 <DropdownItem href='/blog'>Blog</DropdownItem>

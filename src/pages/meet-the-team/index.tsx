@@ -84,20 +84,20 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL National Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
+              <Member name='Dan Eccles' title='IPL National Referee' image={placeholder} />
               <Member name='Nicola Elding' title='IPL National Referee & Newsletter Editor in Chief' image={nicola} />
               <Member name='John Griffiths' title='IPL National Referee' image={placeholder} />
               <Member name='Philip Hadley' title='IPL National Referee ' image={placeholder} />
               <Member name='Jake Henderson' title='IPL National Referee' image={jake} />
               <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={placeholder} />
+              <Member name='Heather Swain' title='IPL National Referee' image={heather} />
               <Member name='Charlotte Wearing' title='IPL National Referee ' image={charlotte} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>BPF National Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Peter Battle' title='BPF National Referee & Complaints Officer' image={placeholder} />
-              <Member name='Dan Eccles' title='BPF National Referee' image={placeholder} />
               <Member name='Jane Mannering' title='BPF National Referee' image={placeholder} />
-              <Member name='Heather Swain' title='BPF National Referee' image={heather} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Trainee Referees</h2>
