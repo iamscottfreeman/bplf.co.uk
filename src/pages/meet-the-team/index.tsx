@@ -29,6 +29,8 @@ import john from './john.jpg';
 import damian from './damian.jpg';
 import david from './david.jpg';
 import peter from './peter.jpg';
+import charlie from './charlie.jpg';
+import imran from './imran.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -115,7 +117,7 @@ export default function MeetTheTeam() {
               <Member name='Izzy Cotton' title='Staff Official' image={izzy} />
               <Member name='Jodi Duncan' title='Staff Official' image={jodi} />
               <Member name='Julie Churm' title='Staff Official' image={julie} />
-              <Member name='Scott Freeman' title='Staff Official & Website Manager' image={scott} />
+              <Member name='Scott Freeman' title='Staff Official &amp; Webmaster' image={scott} />
               <Member name='Toni Knot' title='Staff Official' image={placeholder} />
               <Member name='Lucy Moore' title='Staff Official' image={lucy} />
               <Member name='Bekkie Roughton' title='Staff Official' image={bekkie} />
@@ -124,6 +126,8 @@ export default function MeetTheTeam() {
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Platform Crew</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
+              <Member name='Imran Khan' title='Platform Crew' image={imran} />
+              <Member name='Charlie Simon' title='Platform Crew' image={charlie} />
             </div>
           </Container>
         </section>
