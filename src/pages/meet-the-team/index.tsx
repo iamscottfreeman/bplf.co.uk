@@ -31,6 +31,9 @@ import david from './david.jpg';
 import peter from './peter.jpg';
 import charlie from './charlie.jpg';
 import imran from './imran.jpg';
+import dan from './dan.jpg';
+import phil from './phil.jpg';
+import freddie from './freddie.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -90,10 +93,10 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL National Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Dan Eccles' title='IPL National Referee' image={placeholder} />
+              <Member name='Dan Eccles' title='IPL National Referee' image={dan} />
               <Member name='Nicola Elding' title='IPL National Referee & Newsletter Editor in Chief' image={nicola} />
               <Member name='John Griffiths' title='IPL National Referee' image={john} />
-              <Member name='Philip Hadley' title='IPL National Referee ' image={placeholder} />
+              <Member name='Philip Hadley' title='IPL National Referee ' image={phil} />
               <Member name='Jake Henderson' title='IPL National Referee' image={jake} />
               <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={david} />
               <Member name='Heather Swain' title='IPL National Referee' image={heather} />
@@ -128,6 +131,7 @@ export default function MeetTheTeam() {
               <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
               <Member name='Imran Khan' title='Platform Crew' image={imran} />
               <Member name='Charlie Simon' title='Platform Crew' image={charlie} />
+              <Member name='Freddy Simons' title='Platform Crew' image={freddie} />
             </div>
           </Container>
         </section>
