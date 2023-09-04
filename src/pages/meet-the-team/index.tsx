@@ -25,6 +25,10 @@ import izzy from './izzy.jpg';
 import lucy from './lucy.jpg';
 import bekkie from './bekkie.jpg';
 import jim from './jim.jpg';
+import john from './john.jpg';
+import damian from './damian.jpg';
+import david from './david.jpg';
+import peter from './peter.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -86,17 +90,17 @@ export default function MeetTheTeam() {
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Dan Eccles' title='IPL National Referee' image={placeholder} />
               <Member name='Nicola Elding' title='IPL National Referee & Newsletter Editor in Chief' image={nicola} />
-              <Member name='John Griffiths' title='IPL National Referee' image={placeholder} />
+              <Member name='John Griffiths' title='IPL National Referee' image={john} />
               <Member name='Philip Hadley' title='IPL National Referee ' image={placeholder} />
               <Member name='Jake Henderson' title='IPL National Referee' image={jake} />
-              <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={placeholder} />
+              <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={david} />
               <Member name='Heather Swain' title='IPL National Referee' image={heather} />
               <Member name='Charlotte Wearing' title='IPL National Referee ' image={charlotte} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>BPF National Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Peter Battle' title='BPF National Referee & Complaints Officer' image={placeholder} />
+              <Member name='Peter Battle' title='BPF National Referee & Complaints Officer' image={peter} />
               <Member name='Jane Mannering' title='BPF National Referee' image={placeholder} />
             </div>
 
@@ -107,7 +111,7 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Staff Officials</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Damian Copeland' title='Staff Official' image={placeholder} />
+              <Member name='Damian Copeland' title='Staff Official' image={damian} />
               <Member name='Izzy Cotton' title='Staff Official' image={izzy} />
               <Member name='Jodi Duncan' title='Staff Official' image={jodi} />
               <Member name='Julie Churm' title='Staff Official' image={julie} />
