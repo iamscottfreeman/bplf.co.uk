@@ -34,6 +34,7 @@ import imran from './imran.jpg';
 import dan from './dan.jpg';
 import phil from './phil.jpg';
 import freddie from './freddie.jpg';
+import nicky from './nicky.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -124,6 +125,7 @@ export default function MeetTheTeam() {
               <Member name='Toni Knot' title='Staff Official' image={placeholder} />
               <Member name='Lucy Moore' title='Staff Official' image={lucy} />
               <Member name='Bekkie Roughton' title='Staff Official' image={bekkie} />
+              <Member name='Nicky Shore' title='Official Drug Tester' image={nicky} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Platform Crew</h2>
