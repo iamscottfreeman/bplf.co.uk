@@ -29,6 +29,10 @@ export default function CompetitionResults() {
               <ResultLink title='RECORD BREAKERS 2023' link='/downloads/record-brackets-nov-12-2022.xls' />
               <ResultLink title='MANSFIELD MANIA 2023' link='/downloads/Mansfield-Mania.xlsx' />
               <ResultLink
+                title='BRITISH CHAMPIONSHIPS STRICT CURL 2023'
+                link='/downloads/BRITISH-CHAMPIONSHIPS-STRICT-CURL-APRIL-2023.xlsx'
+              />
+              <ResultLink
                 title='BRITISH CHAMPIONSHIPS 2023'
                 link='/downloads/British-championships-2023-1.xlsx'
                 isLast
