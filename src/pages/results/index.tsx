@@ -24,13 +24,13 @@ export default function Results() {
                 title='TESTED FULL POWER CLASSIC RAW AUGUST 2023'
                 link='/downloads/TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='TESTED FULL POWER RAW AUGUST 2023' link='/downloads/TESTED-FP-RAW.xlsx' />
+              <ResultLink title='TESTED FULL POWER RAW SEPTEMBER 2023' link='/downloads/TESTED-FP-RAW.xlsx' />
               <ResultLink
                 title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS AUGUST 2023'
                 link='/downloads/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC POWER RAW SINGLE LIFTS AUGUST 2023'
+                title='TESTED CLASSIC POWER RAW SINGLE LIFTS SEPTEMBER 2023'
                 link='/downloads/TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink title='TESTED STRICT CURL AUGUST 2023' link='/downloads/TESTED-STRICT-CURL.xlsx' />
@@ -39,7 +39,7 @@ export default function Results() {
                 title='NON-TESTED FULL POWER CLASSIC RAW AUGUST 2023'
                 link='/downloads/NON-TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='NON-TESTED FULL POWER RAW AUGUST 2023' link='/downloads/NON-TESTED-FP-RAW.xlsx' />
+              <ResultLink title='NON-TESTED FULL POWER RAW SEPTEMBER 2023' link='/downloads/NON-TESTED-FP-RAW.xlsx' />
               <ResultLink
                 title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS AUGUST 2023'
                 link='/downloads/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
