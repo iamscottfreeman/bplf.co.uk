@@ -20,6 +20,7 @@ export default function Records() {
           <PageHeader title='Strict Curl Records' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
+              <ResultLink title='MAYHEM IN BOSTON 2023' link='/downloads/Mayhem-in-Boston-strict-curl-17092023.csv' />
               <ResultLink
                 title='TESTED STRICT CURL APRIL 2023'
                 link='/downloads/TESTED-STRICKED-CURL-23-APRIL-2023.xlsx'
