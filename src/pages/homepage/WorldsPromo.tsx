@@ -29,9 +29,14 @@ const WorldsPromo = () => {
             >
               18 - 23 OCTOBER
             </p>
+            <p className='mb-2'>
+              <Button href='https://events.bplf.co.uk/worlds2023' target='_blank'>
+                See More Details
+              </Button>
+            </p>
             <p>
-              <Button href='https://ipl-tested-world-champs.scottfreeman.net/' target='_blank'>
-                See Details
+              <Button href='https://forms.gle/C6KnLiSbCcFeTsWc8' target='_blank'>
+                Pre-book Event Photos
               </Button>
             </p>
           </div>
