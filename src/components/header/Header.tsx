@@ -60,7 +60,7 @@ const Header = () => {
                   </Link>
                 </div>
                 <div className='mr-2'>
-                  <Link href='https://www.instagram.com/bpf_ipl_gb/' target='_blank'>
+                  <Link href='https://www.instagram.com/bpf_gb/' target='_blank'>
                     <IconInstagram className='inline w-6 h-6 fill-gray-700 transition hover:fill-red-700' />
                   </Link>
                 </div>

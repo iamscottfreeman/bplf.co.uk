@@ -122,7 +122,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className='mr-2'>
-                <Link href='https://www.instagram.com/bpf_ipl_gb/' target='_blank'>
+                <Link href='https://www.instagram.com/bpf_gb/' target='_blank'>
                   <IconInstagram className='inline w-6 h-6 fill-gray-200 transition hover:fill-white' />
                 </Link>
               </div>
