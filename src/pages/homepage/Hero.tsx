@@ -26,7 +26,7 @@ const Hero = () => {
           <div className='text-red-600 text-3xl md:text-4xl lg:text-6xl'>if you want a different tomorrow</div>
         </h2>
         <div className='my-4 md:text-xl lg:text-2xl text-shadow-xl'>
-          Compete with the best lifters in Great Britain and the world with the BPF &amp; IPL.
+          Compete with the best lifters in Great Britain and the world with the BPF.
         </div>
         <div className='my-4 lg:text-xl text-shadow-xl'>
           Full power, single lifts, strict curl, raw, classic raw single-ply, multi-ply, para bench & para deadlift.

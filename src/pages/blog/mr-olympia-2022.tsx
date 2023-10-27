@@ -48,7 +48,7 @@ export default function BlogPost() {
                 </p>
                 <p className='mb-4'>
                   I will be on stage yes I am now disabled and have cancer and not much of my heart working but I love
-                  this sport and love the IPL and what it stands for xxxxx
+                  this sport and what it stands for xxxxx
                 </p>
                 <p className='mb-4'>
                   <span className='font-bold'>Marcus Griffiths</span>

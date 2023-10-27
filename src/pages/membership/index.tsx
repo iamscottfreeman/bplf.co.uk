@@ -59,13 +59,12 @@ export default function Membership() {
                 <h2 className={`${fonts.header.className} uppercase text-3xl mt-8 mb-4`}>Anti-doping Policy</h2>
                 <p className='mb-4'>
                   British Powerlifting Federation is unequivocal in its opposition to drugs in sport and strictly
-                  adheres to the IPL and their rules of Drug-free powerlifters. All international lifters are required
-                  to register with the IPL and are included in their Random Drug Testing at tested competitions. In
-                  addition, competitors for British Championships are required to complete a Random Testing membership
-                  form as part of our new online application process, to enable tested BPF athletes to compete at IPL
-                  international meets and World Championships in the time period preceding the championships. British
-                  Powerlifting Federation is the only UK powerlifting organisation to have drug testing carried out for
-                  the IPL.
+                  adheres to the rules of Drug-free powerlifters. All international lifters are required to register and
+                  are included in their Random Drug Testing at tested competitions. In addition, competitors for British
+                  Championships are required to complete a Random Testing membership form as part of our new online
+                  application process, to enable tested BPF athletes to compete at international meets and World
+                  Championships in the time period preceding the championships. British Powerlifting Federation is the
+                  only UK powerlifting organisation to have drug testing carried out.
                 </p>
               </div>
               <div className='lg:w-1/3'>

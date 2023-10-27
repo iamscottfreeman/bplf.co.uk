@@ -27,7 +27,6 @@ const Navbar = () => {
                 <DropdownItem href='/meet-the-team'>Meet the Team</DropdownItem>
                 <DropdownItem href='/academy'>Academy</DropdownItem>
                 <DropdownItem href='/sponsors'>Sponsors</DropdownItem>
-                <DropdownItem href='/ipl'>About the IPL</DropdownItem>
                 <DropdownItem href='/contact'>Contact Us</DropdownItem>
               </DropdownMenu>
               <Link href='/membership'>Membership</Link>
@@ -36,9 +35,6 @@ const Navbar = () => {
                 <DropdownItem href='/results/'>British Records 2023</DropdownItem>
                 <DropdownItem href='/results/competitions'>Competition Results</DropdownItem>
                 <DropdownItem href='/results/previous'>Previous British Records</DropdownItem>
-                <DropdownItem target='_blank' href='https://powerlifting-ipl.com/ipl-records-index/'>
-                  IPL European &amp; World Records
-                </DropdownItem>
               </DropdownMenu>
               <DropdownMenu href='/blog' text='Community'>
                 <DropdownItem href='/blog'>Blog</DropdownItem>

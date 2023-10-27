@@ -34,7 +34,7 @@ const Welcome = () => {
           <div className={`${fonts.header.className} text-xl mb-4 text-center uppercase`}>
             Obey the law. Take care of the members. Take care of our employees.
             <br />
-            Respect our Sponsors. Welcome people to the BPF/IPL family.
+            Respect our Sponsors. Welcome people to the BPF family.
           </div>
           <div className={`${fonts.header.className} text-3xl mb-4 text-center uppercase text-red-600`}>
             The lifters federation

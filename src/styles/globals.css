@@ -59,12 +59,3 @@ body {
 .react-photo-gallery--gallery img {
   border-radius: 0.25rem;
 }
-
-@media (min-width: 1024px) {
-  .worlds-promo--background {
-    background-image: url('/images/ipl-banner.png');
-  }
-  .worlds-promo--overlay {
-    background: rgba(255, 255, 255, 0.85);
-  }
-}

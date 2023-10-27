@@ -57,9 +57,8 @@ export default function MeetTheTeam() {
                 <div>
                   <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Marcus Griffiths</h2>
                   <p className='mb-4 text-2xl font-bold'>President of the British Powerlifting Federation</p>
-                  <p className='mb-4 text-xl font-bold'>European President of the International Powerlifting League</p>
                   <p className='mb-4'>Founder of British Powerlifting Federation & World Powerlifting Union</p>
-                  <p className='mb-4'>International referee for the WPU, WRPF & IPL</p>
+                  <p className='mb-4'>International referee for the WPU & WRPF</p>
                   <p className='mb-4'>Olympic weightlifting athlete</p>
                   <p className='mb-4'>The only man to have won Mr Olympia 5 times</p>
                   <p className='mb-4'>21 x World Powerlifting Champion</p>
@@ -75,8 +74,6 @@ export default function MeetTheTeam() {
                 <div>
                   <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Lady Petra Kent</h2>
                   <p className='mb-4 text-2xl font-bold'>Vice President of the British Powerlifting Federation</p>
-                  <p className='mb-4 text-xl font-bold'>General Secretary of the International Powerlifting League</p>
-                  <p className='mb-4'>IPL European & Commonwealth President Assistant</p>
                   <p className='mb-4'>International WRPF & BPF referee</p>
                   <p className='mb-4'>16 x World titles</p>
                   <p className='mb-4'>13 x British titles</p>
@@ -86,22 +83,22 @@ export default function MeetTheTeam() {
               </div>
             </div>
 
-            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL International Referees</h2>
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>International Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Tony Power' title='IPL International Referee & Trainee Technical Officer' image={tony} />
-              <Member name='Chris Roberts' title='IPL International Referee' image={chris} />
+              <Member name='Tony Power' title='International Referee & Trainee Technical Officer' image={tony} />
+              <Member name='Chris Roberts' title='International Referee' image={chris} />
             </div>
 
-            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>IPL National Referees</h2>
+            <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>National Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Dan Eccles' title='IPL National Referee' image={dan} />
-              <Member name='Nicola Elding' title='IPL National Referee & Newsletter Editor in Chief' image={nicola} />
-              <Member name='John Griffiths' title='IPL National Referee' image={john} />
-              <Member name='Philip Hadley' title='IPL National Referee ' image={phil} />
-              <Member name='Jake Henderson' title='IPL National Referee' image={jake} />
-              <Member name='David Mannering' title='IPL National Referee & Technical Officer' image={david} />
-              <Member name='Heather Swain' title='IPL National Referee' image={heather} />
-              <Member name='Charlotte Wearing' title='IPL National Referee ' image={charlotte} />
+              <Member name='Dan Eccles' title='National Referee' image={dan} />
+              <Member name='Nicola Elding' title='National Referee & Newsletter Editor in Chief' image={nicola} />
+              <Member name='John Griffiths' title='National Referee' image={john} />
+              <Member name='Philip Hadley' title='National Referee ' image={phil} />
+              <Member name='Jake Henderson' title='National Referee' image={jake} />
+              <Member name='David Mannering' title='National Referee & Technical Officer' image={david} />
+              <Member name='Heather Swain' title='National Referee' image={heather} />
+              <Member name='Charlotte Wearing' title='National Referee ' image={charlotte} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>BPF National Referees</h2>

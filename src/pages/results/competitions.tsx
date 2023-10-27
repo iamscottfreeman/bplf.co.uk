@@ -23,7 +23,7 @@ export default function CompetitionResults() {
             <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2023</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink title='Mayhem-in-Boston - 25th March 2023' link='/downloads/Mayhem-in-Boston-112233.xlsx' />
-              <ResultLink
+              {/* <ResultLink
                 title='IPL Commonwealth and European Championships 2023 - Day 1'
                 link='/downloads/E&C-Open-2023-Day1.xlsx'
               />
@@ -34,7 +34,7 @@ export default function CompetitionResults() {
               <ResultLink
                 title='IPL Commonwealth and European Championships 2023 - Day 3'
                 link='/downloads/E&C-Open-2023-Day3.xlsx'
-              />
+              /> */}
               <ResultLink title='BOSTON 2023' link='/downloads/BOSTON-17092023.xlsx' />
               <ResultLink title='WOMEN OF IRON 2023' link='/downloads/WOMEN-OF-IRON-2023.xlsx' />
               <ResultLink title='DAY OF THE DEAD 2023' link='/downloads/DAY-OF-THE-DEAD-FULL-COM.xls' />

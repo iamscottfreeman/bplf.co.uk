@@ -7,7 +7,7 @@ export default function Document() {
       <Head>
         <meta
           name='keywords'
-          content='British Powerlifting Federation, BPF, IPL, british powerlifting, powerlifting, weightlifting, strongman'
+          content='British Powerlifting Federation, BPF, british powerlifting, powerlifting, weightlifting, strongman'
         />
         <meta name='author' content='Scott Freeman' />
       </Head>

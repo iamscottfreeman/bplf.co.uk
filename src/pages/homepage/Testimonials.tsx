@@ -26,8 +26,8 @@ const Testimonials = () => {
         <div className='w-full md:w-3/4 2xl:w-1/2'>
           <Slider interval={6}>
             <Testimonial author='Chris Roberts'>
-              As a promoter, I can not recommend working with BPF/IPL enough. If you want to see a qualifier in your
-              gym, get in touch! DON&apos;T FORGET, BPF IS THE ONLY UK ROUTE TO THE OLYMPIA (VEGAS)!
+              As a promoter, I can not recommend working with BPF enough. If you want to see a qualifier in your gym,
+              get in touch! DON&apos;T FORGET, BPF IS THE ONLY UK ROUTE TO THE OLYMPIA (VEGAS)!
             </Testimonial>
             <Testimonial author='Phil Watkins'>
               Thank you Marcus MrO Griffiths the organisers/loaders/refs etc for a well run comp.

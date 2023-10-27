@@ -20,7 +20,7 @@ export default function BannedLifters() {
         <section>
           <PageHeader title='Banned Lifters' />
           <Container className='py-10'>
-            <p className='mb-4'>The following lifters have been banned for life from the BPF and IPL.</p>
+            <p className='mb-4'>The following lifters have been banned for life from the BPF.</p>
             <ul className='mb-4 ml-4 list-outside list-disc space-y-2'>
               <li>CHRIS LANE (2016)</li>
               <li>PATRICIA HURST (2019)</li>

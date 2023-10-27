@@ -64,15 +64,13 @@ export default function BlogPost() {
                   </p>
                   <p className='mb-2'>
                     Our Moto is to promote from within and give our members the opportunity to be part of a much bigger
-                    picture. This year we have the IPL Drug Tested Worlds first time in the United Kingdom in October in
+                    picture. This year we have the Drug Tested Worlds first time in the United Kingdom in October in
                     Coventry.
                   </p>
                   <p className='mb-2'>
                     I would like to reassure all our members that the future is very bright and I am so proud of you all
                     . Have a great year and see you all on the platform.
                   </p>
-                  <p>IPL European President BPF President</p>
-                  <p className='mb-2'>5 X Mr Olympia Pro</p>
                   <p>Marcus Griffiths</p>
                 </div>
                 <div className='lg:w-1/3'>

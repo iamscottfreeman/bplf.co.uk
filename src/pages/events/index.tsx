@@ -29,29 +29,6 @@ export default function Events() {
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={img06} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
-                  IPL Tested World Championships
-                </h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>18th - 22nd October 2023</p>
-                <p className='mb-2'>
-                  Royal Court Hotel
-                  <br />
-                  Tamworth
-                  <br />
-                  Kersley
-                  <br />
-                  Coventry
-                  <br />
-                  CV7 8JG
-                </p>
-                <p className='mb-2'>
-                  <Button href='https://events.bplf.co.uk/worlds2023' target='_blank'>
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={img07} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Mr Olympia</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>2nd - 5th November 2023</p>
@@ -110,10 +87,6 @@ export default function Events() {
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Mayhem in Boston</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>25th March 2024</p>
                 <p className='mb-2'>
-                  This is the last qualifying comp for the 2024 British Championships, which is the only way to qualify
-                  for the IPL tested world championships England 2024.
-                </p>
-                <p className='mb-2'>
                   Mayhem Gym
                   <br />
                   6 Bittern Way
@@ -130,13 +103,6 @@ export default function Events() {
                     Entry Form
                   </Button>
                 </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
-                  IPL Tested Commonwealth Championship
-                </h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>24th - 26th October 2024</p>
-                <p className='mb-2'>Nauru International, FW38+VJ8, Yaren, Nauru</p>
               </div>
             </div>
           </Container>

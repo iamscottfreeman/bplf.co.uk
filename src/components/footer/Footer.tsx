@@ -3,8 +3,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import bpfLogo from '../../images/logo.png';
-import iplLogo from '../../images/ipl-logo.jpg';
-import Button from '../atoms/Button';
 import { fonts } from '@/helpers/fonts';
 import IconPin from '../icons/IconPin';
 import IconPhone from '../icons/IconPhone';
@@ -20,10 +18,6 @@ const Footer = () => {
       <Container className='pt-4'>
         <div className='flex flex-col md:flex-row justify-between my-4 space-y-6 md:space-y-0'>
           <div className='flex flex-col mb-4 items-start'>
-            <div className='mb-8 md:mb-0 flex items-center space-x-2 self-center'>
-              <Image src={bpfLogo} alt='British Powerlifting Federation' width={150} className='mb-2' />
-              <Image src={iplLogo} alt='International Powerlifting League' width={150} className='mb-2' />
-            </div>
             <div className='flex flex-col items-start space-y-4'>
               <div>
                 <Link
@@ -49,6 +43,9 @@ const Footer = () => {
                   <IconMail className='inline mr-1' />
                   bpf.secretary@gmail.com
                 </Link>
+              </div>
+              <div className='mb-8 md:mb-0 flex'>
+                <Image src={bpfLogo} alt='British Powerlifting Federation' width={100} className='mb-2' />
               </div>
             </div>
           </div>
