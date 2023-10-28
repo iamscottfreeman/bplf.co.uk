@@ -12,7 +12,7 @@ import Button from '@/components/atoms/Button';
 import img06 from './06.jpg';
 import img07 from './07.jpg';
 import img10 from './10.jpg';
-import recordbreakers from './recordbreakers.jpeg';
+import recordbreakers from './recordbreakers.jpg';
 import montycrown from './montycrown.jpg';
 
 export default function Events() {
