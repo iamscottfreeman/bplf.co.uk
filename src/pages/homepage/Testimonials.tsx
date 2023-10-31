@@ -25,6 +25,12 @@ const Testimonials = () => {
         </div>
         <div className='w-full md:w-3/4 2xl:w-1/2'>
           <Slider interval={6}>
+            <Testimonial author='Ray Mack, USA'>
+              Huge shout out to the British Powerlifting Federation for hosting the Drug Tested World Championship over
+              the weekend in Coventry, England. The fees were fair, and we didn't get charged with ridiculously high
+              passes which allowed us to watch on our non competing days. It was a true world competition. Thank you for
+              your generous hospitality and professionalism.
+            </Testimonial>
             <Testimonial author='Chris Roberts'>
               As a promoter, I can not recommend working with BPF enough. If you want to see a qualifier in your gym,
               get in touch! DON&apos;T FORGET, BPF IS THE ONLY UK ROUTE TO THE OLYMPIA (VEGAS)!
