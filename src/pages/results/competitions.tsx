@@ -23,6 +23,10 @@ export default function CompetitionResults() {
             <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2023</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
+                title='100% RAW STRICT CURL WORLD CUP 2023 GB'
+                link='/downloads/100%-RAW-STRICT-CURL-WORLD-CUP-2023-GB.xlsx'
+              />
+              <ResultLink
                 title='Drug Tested World Championships 18th till 22nd October 2023'
                 link='/downloads/DrugTestedWorldChampionships2023.xlsx'
               />
