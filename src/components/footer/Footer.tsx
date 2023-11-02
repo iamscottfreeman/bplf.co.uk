@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import bpfLogo from '../../images/logo.png';
+import wpuLogo from '../../images/wpu.jpg';
+import rawLogo from '../../images/100raw.jpg';
 import { fonts } from '@/helpers/fonts';
 import IconPin from '../icons/IconPin';
 import IconPhone from '../icons/IconPhone';
@@ -14,7 +16,7 @@ import Container from '../atoms/Container';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className='bg-white'>
       <Container className='pt-4'>
         <div className='flex flex-col md:flex-row justify-between my-4 space-y-6 md:space-y-0'>
           <div className='flex flex-col mb-4 items-start'>
@@ -44,8 +46,10 @@ const Footer = () => {
                   bpf.secretary@gmail.com
                 </Link>
               </div>
-              <div className='mb-8 md:mb-0 flex'>
-                <Image src={bpfLogo} alt='British Powerlifting Federation' width={100} className='mb-2' />
+              <div className='mb-8 md:mb-0 flex space-x-2'>
+                <Image src={bpfLogo} alt='British Powerlifting Federation' height={125} className='mb-2' />
+                <Image src={wpuLogo} alt='World Powerlifting Union' height={125} className='mb-2' />
+                <Image src={rawLogo} alt='100% Raw Powerlifting' height={125} className='mb-2' />
               </div>
             </div>
           </div>
