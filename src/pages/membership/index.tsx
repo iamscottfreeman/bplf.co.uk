@@ -9,7 +9,7 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import awards from './awards.jpg';
+import awards from '../../../public/gallery/380219207_265527036489640_6710489501146464722_n.jpg';
 
 export default function Membership() {
   return (

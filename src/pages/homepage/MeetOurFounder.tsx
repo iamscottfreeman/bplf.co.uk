@@ -5,8 +5,7 @@ import { fonts } from '@/helpers/fonts';
 import Button from '@/components/atoms/Button';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage from '../../images/stock/6.jpg';
-import marcus from '../../images/marcus.jpg';
+import backgroundImage from '../../images/meetthefounder.jpeg';
 
 const MeetOurFounder = () => {
   return (
@@ -21,18 +20,18 @@ const MeetOurFounder = () => {
         <div className='flex flex-col lg:flex-row justify-center items-center'>
           <div className='text-center lg:text-left lg:w-1/2'>
             <div
-              className={`${fonts.header.className} text-3xl md:text-4xl lg:text-5xl uppercase text-red-600 mb-4 text-shadow`}
+              className={`${fonts.header.className} text-3xl md:text-4xl lg:text-5xl text-center uppercase text-red-600 mb-4 text-shadow`}
             >
               A Word From The President
             </div>
-            <div className='text-xl pr-4 mb-4 text-shadow xl:pr-8 lg:leading-10'>
+            <div className='text-xl pr-4 mb-4 text-shadow xl:pr-8 lg:leading-10 text-center'>
               Sports Prep began in 2011 as a Sports and Mentoring Outreach. Sports Prep was founded by former Olympic
               Weightlifter and Coach, Marcus Griffiths. We have evolved over the years as hundreds of athletes, youths
               and adults have utilized Sports Prep to prepare for competitive level sports, participate in Powerlifting
               recreational sports, or to simply maintain a healthy lifestyle. From day one, we have always strived to
               meet the wellness needs of athletes, families and communities.
             </div>
-            <div className='flex flex-col md:flex-row justify-center md:justify-start space-x-4 space-y-4 -ml-4'>
+            <div className='flex flex-col md:flex-row justify-center space-x-4 space-y-4 -ml-4'>
               <div>
                 <Button href='/meet-the-team' className='ml-4 mt-4'>
                   Meet the team
@@ -42,9 +41,6 @@ const MeetOurFounder = () => {
                 <Button href='/blog'>Read the Blog</Button>
               </div>
             </div>
-          </div>
-          <div className='text-center mt-4 lg:mt-0 lg:text-left lg:w-1/2'>
-            <Image src={marcus} alt='' className='rounded-md' />
           </div>
         </div>
       </Container>
