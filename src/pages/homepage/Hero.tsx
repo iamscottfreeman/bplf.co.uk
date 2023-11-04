@@ -8,8 +8,8 @@ import IconEvent from '@/components/icons/IconEvent';
 import IconContact from '@/components/icons/IconContact';
 import Container from '@/components/atoms/Container';
 
-import backgroundImage1 from '../../images/stock/4.jpg';
-import backgroundImage from '../../../public/gallery/IMG_1702.jpg';
+import backgroundImage from '../../images/stock/4.jpg';
+import backgroundImage1 from '../../../public/gallery/IMG_1702.jpg';
 
 const Hero = () => {
   return (

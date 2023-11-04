@@ -21,16 +21,7 @@ export default function Rules() {
           <PageHeader title='Rules' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-2 items-center text-center gap-4'>
-              <p>Link to rules coming soon...</p>
-              {/* <RulesLink
-                title='IPL Rule Book 2023'
-                link='https://powerlifting-ipl.com/wp-content/uploads/2023/03/2023-IPL-RULE-BOOK-FINAL-1.pdf'
-              />
-              <RulesLink
-                title='IPL Rule Book 2022'
-                link='https://powerlifting-ipl.com/wp-content/uploads/2022/06/2022-IPL-RULE-BOOK-FINAL-V2.-1-1-2022.pdf'
-                isLast
-              /> */}
+              <RulesLink title='Rule Book 2023' link='/downloads/Rulebook-2023.pdf' isLast />
             </div>
           </Container>
         </section>
