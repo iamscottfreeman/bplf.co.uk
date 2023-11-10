@@ -33,6 +33,7 @@ export default function BannedLifters() {
               <li>ADRIAN POTYKUS (January 2022)</li>
               <li>NICOLAS MELLOR (January 2022)</li>
               <li>VLADIMIR AGASARGAN (June 2022)</li>
+              <li>STEVE DENASON (2023)</li>
             </ul>
           </Container>
         </section>

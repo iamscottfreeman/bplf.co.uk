@@ -26,7 +26,7 @@ const Hero = () => {
           <div className='text-red-600 text-3xl md:text-4xl lg:text-6xl'>if you want a different tomorrow</div>
         </h2>
         <div className='my-4 md:text-xl lg:text-2xl text-shadow-xl'>
-          Compete with the best lifters in Great Britain and the world with the BPF.
+          Compete with the best lifters in Great Britain and the world with the BPF/WPU.
         </div>
         <div className='my-4 lg:text-xl text-shadow-xl'>
           Full power, single lifts, strict curl, raw, classic raw single-ply, multi-ply, para bench & para deadlift.
@@ -34,7 +34,7 @@ const Hero = () => {
         <div className='my-4 lg:text-xl text-shadow-xl'>Something for every level, age and gender.</div>
         <div className='my-4 lg:text-xl text-shadow-xl'>Separate tested and non-tested divisions.</div>
         <div className='my-4 lg:text-xl italic text-shadow-xl'>
-          The BPF is the only UK route to Mr Olympia in the USA!
+          The BPF is the only UK route to Iron Titan Pro Meet!
         </div>
         <div className='flex items-center flex-col md:flex-row space-y-4 md:flex md:space-y-0 md:space-x-6 mt-8'>
           <Link

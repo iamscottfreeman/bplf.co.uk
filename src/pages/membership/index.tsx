@@ -25,13 +25,14 @@ export default function Membership() {
           <Container className='py-10'>
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3'>
-                <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Join the BPF</h2>
+                <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Join the BPF/WPU</h2>
                 <p className='mb-4'>
                   <Button href='https://forms.gle/UXePXxfwFc3wVi7k8' target='_blank'>
                     Membership Form
                   </Button>
                 </p>
                 <h2 className={`${fonts.header.className} uppercase text-3xl mt-8 mb-4`}>Membership Information</h2>
+                <p className='mb-4'>All BPF members will also be given WPU membership free of charge.</p>
                 <p className='mb-4'>
                   All membership purchased from the 1st November 2022 will run until the 1st November 2023.
                 </p>

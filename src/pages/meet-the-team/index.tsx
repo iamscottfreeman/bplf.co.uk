@@ -85,8 +85,11 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>International Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Tony Power' title='International Referee & Trainee Technical Officer' image={tony} />
+              <Member name='Tony Power' title='International Referee & Technical Officer' image={tony} />
               <Member name='Chris Roberts' title='International Referee' image={chris} />
+              <Member name='David Mannering' title='International Referee & Technical Officer' image={david} />
+              <Member name='Heather Swain' title='International Referee' image={heather} />
+              <Member name='Charlotte Wearing' title='International Referee ' image={charlotte} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>National Referees</h2>
@@ -96,9 +99,6 @@ export default function MeetTheTeam() {
               <Member name='John Griffiths' title='National Referee' image={john} />
               <Member name='Philip Hadley' title='National Referee ' image={phil} />
               <Member name='Jake Henderson' title='National Referee' image={jake} />
-              <Member name='David Mannering' title='National Referee & Technical Officer' image={david} />
-              <Member name='Heather Swain' title='National Referee' image={heather} />
-              <Member name='Charlotte Wearing' title='National Referee ' image={charlotte} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>BPF National Referees</h2>
@@ -109,7 +109,8 @@ export default function MeetTheTeam() {
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Trainee Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
-              <Member name='Jim Nuttall' title='Trainee Referee' image={jim} />
+              <Member name='Glen Smith' title='Trainee Referee' image={placeholder} />
+              <Member name='Roz' title='Trainee Referee' image={placeholder} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Staff Officials</h2>
@@ -118,16 +119,17 @@ export default function MeetTheTeam() {
               <Member name='Izzy Cotton' title='Staff Official' image={izzy} />
               <Member name='Jodi Duncan' title='Staff Official' image={jodi} />
               <Member name='Julie Churm' title='Staff Official' image={julie} />
-              <Member name='Scott Freeman' title='Staff Official &amp; Webmaster' image={scott} />
+
               <Member name='Toni Knot' title='Staff Official' image={placeholder} />
-              <Member name='Lucy Moore' title='Staff Official' image={lucy} />
+              <Member name='Lucy Moore' title='Table Team' image={lucy} />
               <Member name='Bekkie Roughton' title='Staff Official' image={bekkie} />
-              <Member name='Nicky Shore' title='Official Drug Tester' image={nicky} />
+              <Member name='Nicky Shore' title='Table Team' image={nicky} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Platform Crew</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Paul Wardally' title='Platform Crew Manager' image={paul} />
+              <Member name='Scott Freeman' title='Platform Crew' image={scott} />
               <Member name='Imran Khan' title='Platform Crew' image={imran} />
               <Member name='Charlie Simon' title='Platform Crew' image={charlie} />
               <Member name='Freddy Simons' title='Platform Crew' image={freddie} />

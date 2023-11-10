@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { fonts } from '@/helpers/fonts';
 import logo from '../../images/logo.png';
+import wpuLogo from '../../images/wpu.jpg';
 import IconPin from '../icons/IconPin';
 import IconMail from '../icons/IconMail';
 import IconPhone from '../icons/IconPhone';
@@ -21,11 +22,23 @@ const Header = () => {
             <Image src={logo} alt='British Powerlifting Federation' className='w-16 md:w-32 m-2' />
           </Link>
           <div className='md:ml-2 flex flex-col flex-1'>
-            <h1
-              className={`${fonts.header.className} m-0 text-center text-3xl md:text-4xl lg:text-5xl md:text-left uppercase font-bold md:mb-4 leading-7`}
-            >
-              <Link href='/'>British Powerlifting Federation</Link>
-            </h1>
+            <div className='flex justify-between'>
+              <h1
+                className={`${fonts.header.className} flex items-center m-0 text-center text-3xl md:text-4xl lg:text-5xl md:text-left uppercase font-bold leading-7`}
+              >
+                <Link href='/'>
+                  British Powerlifting Federation
+                  <span className='hidden md:inline'>
+                    &nbsp;&amp;
+                    <br />
+                    World Powerlifting Union
+                  </span>
+                </Link>
+              </h1>
+              <div className=''>
+                <Image src={wpuLogo} alt='World Powerlifting Union' className='w-32 md:w-20 ml-2 mb-2' />
+              </div>
+            </div>
             <div className='hidden md:flex space-x-4 text-sm'>
               <div className='flex items-center whitespace-nowrap'>
                 <Link href='tel:+441773687667' className='text-gray-600 transition-colors hover:text-red-700'>

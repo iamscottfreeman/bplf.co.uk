@@ -29,13 +29,6 @@ export default function Events() {
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={img07} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Mr Olympia</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>2nd - 5th November 2023</p>
-                <p className='mb-2'>Orlando, USA</p>
-                <p className='mb-2'>By invite only</p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={recordbreakers} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Record Breakers</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>26th November 2023</p>
