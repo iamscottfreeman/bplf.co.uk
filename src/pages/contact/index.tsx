@@ -31,7 +31,13 @@ export default function Contact() {
                 <p className='mb-6'>
                   <Link href='mailto:bpf.secretary@gmail.com'>
                     <IconMail className='inline mr-2' />
-                    Email: <span className='hover:underline'>bpf.secretary@gmail.com</span>
+                    BPF Email: <span className='hover:underline'>bpf.secretary@gmail.com</span>
+                  </Link>
+                </p>
+                <p className='mb-6'>
+                  <Link href='mailto:wpuheadoffice@gmail.com'>
+                    <IconMail className='inline mr-2' />
+                    WPU Email: <span className='hover:underline'>wpuheadoffice@gmail.com</span>
                   </Link>
                 </p>
                 <p className='mb-6'>

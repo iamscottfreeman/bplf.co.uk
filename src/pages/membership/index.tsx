@@ -26,15 +26,9 @@ export default function Membership() {
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3'>
                 <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Join the BPF/WPU</h2>
-                <p className='mb-4'>
-                  <Button href='https://forms.gle/UXePXxfwFc3wVi7k8' target='_blank'>
-                    Membership Form
-                  </Button>
-                </p>
-                <h2 className={`${fonts.header.className} uppercase text-3xl mt-8 mb-4`}>Membership Information</h2>
                 <p className='mb-4'>All BPF members will also be given WPU membership free of charge.</p>
                 <p className='mb-4'>
-                  All membership purchased from the 1st November 2022 will run until the 1st November 2023.
+                  All memberships purchased from the 1st November 2022 will run until the 1st November 2023.
                 </p>
                 <p className='mb-4'>
                   All new 2023-2024 memberships will run until the 1st of November, 2024.
@@ -53,19 +47,38 @@ export default function Membership() {
                   Or via Paypal to marcusmro6@gmail.com.
                 </p>
                 <p className='mb-4'>
-                  We are tested and non tested federation, it's your choice what you wish to lift as. If you wish to be
-                  a tested lifter please specify.
+                  We are a tested and non tested federation, it's your choice what you wish to lift as. If you wish to
+                  be a tested lifter please specify.
+                </p>
+                <p className='mb-4'>
+                  <Button href='https://forms.gle/UXePXxfwFc3wVi7k8' target='_blank'>
+                    Individuals Membership Form
+                  </Button>
                 </p>
 
-                <h2 className={`${fonts.header.className} uppercase text-3xl mt-8 mb-4`}>Anti-doping Policy</h2>
+                <h2 className={`${fonts.header.className} uppercase text-5xl mt-20 mb-4`}>
+                  Become Affiliated with the WPU
+                </h2>
+                <p className='mb-4'>Dear interested party,</p>
                 <p className='mb-4'>
-                  British Powerlifting Federation is unequivocal in its opposition to drugs in sport and strictly
-                  adheres to the rules of Drug-free powerlifters. All international lifters are required to register and
-                  are included in their Random Drug Testing at tested competitions. In addition, competitors for British
-                  Championships are required to complete a Random Testing membership form as part of our new online
-                  application process, to enable tested BPF athletes to compete at international meets and World
-                  Championships in the time period preceding the championships. British Powerlifting Federation is the
-                  only UK powerlifting organisation to have drug testing carried out.
+                  Most of you already know me and have been to several of my meets. I have decided to reopen the World
+                  Powerlifting Union. This will give lots of opportunities at a affordable price to European and
+                  commonwealth countries, along with a top quality service.
+                </p>
+                <p className='mb-4'>
+                  The fee will be just a standard fee of £100. There will be no WPU member fee of £20. We want to give
+                  as many opportunities as possible in growing your federations as well as the WPU in a fair and equal
+                  manner.
+                </p>
+                <p className='mb-4'>I welcome you with open arms and look forward to working with you all again.</p>
+                <p className='mb-4'>- Marcus Griffiths</p>
+                <p className='mb-4'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSeNP456H9shkhC9FS6CB49bPKB7banKW0fh9RMLV7aKlEjK5A/viewform'
+                    target='_blank'
+                  >
+                    Affiliation application
+                  </Button>
                 </p>
               </div>
               <div className='lg:w-1/3'>
