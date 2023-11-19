@@ -21,34 +21,34 @@ export default function Results() {
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
-                title='TESTED FULL POWER CLASSIC RAW AUGUST 2023'
+                title='TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
                 link='/downloads/TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='TESTED FULL POWER RAW SEPTEMBER 2023' link='/downloads/TESTED-FP-RAW.xlsx' />
+              <ResultLink title='TESTED FULL POWER RAW NOVEMBER 2023' link='/downloads/TESTED-FP-RAW.xlsx' />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS AUGUST 2023'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
                 link='/downloads/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC POWER RAW SINGLE LIFTS SEPTEMBER 2023'
+                title='TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
                 link='/downloads/TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
-              <ResultLink title='TESTED STRICT CURL AUGUST 2023' link='/downloads/TESTED-STRICT-CURL.xlsx' />
+              <ResultLink title='TESTED STRICT CURL NOVEMBER 2023' link='/downloads/TESTED-STRICT-CURL.xlsx' />
 
               <ResultLink
-                title='NON-TESTED FULL POWER CLASSIC RAW AUGUST 2023'
+                title='NON-TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
                 link='/downloads/NON-TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='NON-TESTED FULL POWER RAW SEPTEMBER 2023' link='/downloads/NON-TESTED-FP-RAW.xlsx' />
+              <ResultLink title='NON-TESTED FULL POWER RAW NOVEMBER 2023' link='/downloads/NON-TESTED-FP-RAW.xlsx' />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS AUGUST 2023'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
                 link='/downloads/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS AUGUST 2023'
+                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
                 link='/downloads/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
-              <ResultLink title='NON-TESTED STRICT CURL AUGUST 2023' link='/downloads/NON-TESTED-STRICT-CURL.xlsx' />
+              <ResultLink title='NON-TESTED STRICT CURL NOVEMBER 2023' link='/downloads/NON-TESTED-STRICT-CURL.xlsx' />
 
               <ResultLink title='Mens Para Bench May 2023' link='/downloads/mens-para-bench-2023.xlsx' />
               <ResultLink title='Mens Para Deadlift May 2023' link='/downloads/mens-para-deadlift-2023.xlsx' isLast />

@@ -9,8 +9,6 @@ import PageHeader from '@/components/atoms/PageHeader';
 import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
-import img06 from './06.jpg';
-import img07 from './07.jpg';
 import img10 from './10.jpg';
 import recordbreakers from './recordbreakers.jpg';
 import montycrown from './montycrown.jpg';
@@ -96,6 +94,32 @@ export default function Events() {
                     Entry Form
                   </Button>
                 </p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  BPF British DT Championships
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>17 - 19 May 2024</p>
+                <p className='mb-2'>Coventry Rugby Club</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Strong in Boston</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>14 July 2024</p>
+                <p className='mb-2'>Boston, Lincolnshire</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  Women Of Iron Pro Prize Meet
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>20 July 2024</p>
+                <p className='mb-2'>BPF Academy</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  Men Of Steel Prize Meet
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 July 2024</p>
+                <p className='mb-2'>BPF Academy</p>
               </div>
             </div>
           </Container>
