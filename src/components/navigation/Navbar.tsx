@@ -47,8 +47,8 @@ const Navbar = () => {
                 <DropdownItem href='/drug-testing'>Drug Testing & Results</DropdownItem>
                 <DropdownItem href='/banned-lifters'>Banned Lifters</DropdownItem>
               </DropdownMenu>
-              <DropdownMenu href='/strict-curl/events' text='Strict Curl'>
-                <DropdownItem href='/strict-curl/events'>Strict Curl Events</DropdownItem>
+              <DropdownMenu href='/events' text='Strict Curl'>
+                <DropdownItem href='/events'>Strict Curl Events</DropdownItem>
                 <DropdownItem href='/strict-curl/records'>Strict Curl Records</DropdownItem>
                 <DropdownItem href='/strict-curl/rules'>Strict Curl Rules</DropdownItem>
               </DropdownMenu>
