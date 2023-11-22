@@ -33,6 +33,8 @@ const Navbar = () => {
               <Link href='/events'>Events</Link>
               <DropdownMenu href='/results' text='Results'>
                 <DropdownItem href='/results/'>British Records 2023</DropdownItem>
+                <DropdownItem href='/results/eu'>Commonwealth & EU Records 2023</DropdownItem>
+                <DropdownItem href='/results/world'>World Records 2023</DropdownItem>
                 <DropdownItem href='/results/competitions'>Competition Results</DropdownItem>
                 <DropdownItem href='/results/previous'>Previous British Records</DropdownItem>
               </DropdownMenu>

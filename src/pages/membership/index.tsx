@@ -26,6 +26,29 @@ export default function Membership() {
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3'>
                 <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Join the BPF/WPU</h2>
+                <p className='mb-4 text-2xl'>Join us at the BPF/WPU, and you'll get:</p>
+                <ul className='mb-4 list-disc list-inside'>
+                  <li>Access into WPU meets</li>
+                  <li>Access into 100% Raw meets</li>
+                  <li>Invites to Expo Pro meets</li>
+                  <li>Drug Tested meets</li>
+                  <li>Non Tested meets</li>
+                  <li>All officials DBS checked</li>
+                  <li>Free Record certificates</li>
+                  <li>A Sports Academy for our members</li>
+                  <li>A fully staffed head office</li>
+                  <li>All employees and loading crew fully insured, along with public liability insurance</li>
+                  <li>A free Team GB Shirt when competing abroad</li>
+                  <li>Invites to Worlds & European Championships</li>
+                </ul>
+                <p className='mb-4 font-bold'>
+                  Ask yourself this question: what do you actually gain from your membership? Are they working hard to
+                  give a good quality service?
+                </p>
+                <p className='mb-4'>
+                  Food for thought! Only the best for our members at the British Powerlifting Federation & Academy.
+                </p>
+                <h2 className={`${fonts.header.className} uppercase text-5xl mt-10 mb-4`}>Membership Details</h2>
                 <p className='mb-4'>All BPF members will also be given WPU membership free of charge.</p>
                 <p className='mb-4'>
                   All memberships purchased from the 1st November 2022 will run until the 1st November 2023.
@@ -55,7 +78,6 @@ export default function Membership() {
                     Individuals Membership Form
                   </Button>
                 </p>
-
                 <h2 className={`${fonts.header.className} uppercase text-5xl mt-20 mb-4`}>
                   Become Affiliated with the WPU
                 </h2>

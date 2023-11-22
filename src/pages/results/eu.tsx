@@ -12,46 +12,52 @@ export default function Results() {
   return (
     <>
       <Head>
-        <title>British Records 2023 | Results | British Powerlifting Federation</title>
+        <title>Commonwealth & European Records 2023 | Results | British Powerlifting Federation</title>
       </Head>
       <Header />
       <Navbar />
       <main>
         <section>
-          <PageHeader title='British Records 2023' />
+          <PageHeader title='Commonwealth & European Records 2023' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
                 title='TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
-                link='/downloads/TESTED-FP-CLASSIC-RAW.xlsx'
+                link='/downloads/eu-records/TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='TESTED FULL POWER RAW NOVEMBER 2023' link='/downloads/TESTED-FP-RAW.xlsx' />
+              <ResultLink title='TESTED FULL POWER RAW NOVEMBER 2023' link='/downloads/eu-records/TESTED-FP-RAW.xlsx' />
               <ResultLink
                 title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+                link='/downloads/eu-records/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
                 title='TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/TESTED-RAW-SINGLE-LIFTS.xlsx'
+                link='/downloads/eu-records/TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
-              <ResultLink title='TESTED STRICT CURL NOVEMBER 2023' link='/downloads/TESTED-STRICT-CURL.xlsx' />
+              <ResultLink
+                title='TESTED STRICT CURL NOVEMBER 2023'
+                link='/downloads/eu-records/TESTED-STRICT-CURL.xlsx'
+              />
               <ResultLink
                 title='NON-TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
-                link='/downloads/NON-TESTED-FP-CLASSIC-RAW.xlsx'
+                link='/downloads/eu-records/NON-TESTED-FP-CLASSIC-RAW.xlsx'
               />
-              <ResultLink title='NON-TESTED FULL POWER RAW NOVEMBER 2023' link='/downloads/NON-TESTED-FP-RAW.xlsx' />
+              <ResultLink
+                title='NON-TESTED FULL POWER RAW NOVEMBER 2023'
+                link='/downloads/eu-records/NON-TESTED-FP-RAW.xlsx'
+              />
               <ResultLink
                 title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+                link='/downloads/eu-records/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
                 title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
+                link='/downloads/eu-records/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
-              <ResultLink title='NON-TESTED STRICT CURL NOVEMBER 2023' link='/downloads/NON-TESTED-STRICT-CURL.xlsx' />
-
-              <ResultLink title='Mens Para Bench May 2023' link='/downloads/mens-para-bench-2023.xlsx' />
-              <ResultLink title='Mens Para Deadlift May 2023' link='/downloads/mens-para-deadlift-2023.xlsx' isLast />
+              <ResultLink
+                title='NON-TESTED STRICT CURL NOVEMBER 2023'
+                link='/downloads/eu-records/NON-TESTED-STRICT-CURL.xlsx'
+              />
             </div>
             <div className='mt-20 mb-4'>
               <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>

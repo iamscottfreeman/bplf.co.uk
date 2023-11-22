@@ -25,6 +25,11 @@ export default function Blog() {
             <div className='flex flex-col lg:flex-row'>
               <div className='lg:w-2/3 lg:mr-4'>
                 <BlogLink
+                  title='DENSITY TRAINING'
+                  link='/blog/density-training'
+                  extract='Marcus shares his thoughts on how Density Training could help you.'
+                />
+                <BlogLink
                   title='Testing Your Strength'
                   link='/blog/testing-your-strength'
                   extract='Marcus shares some tips and advice on how to safely test your maximum strength.'
