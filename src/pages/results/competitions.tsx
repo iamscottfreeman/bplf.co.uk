@@ -22,7 +22,7 @@ export default function CompetitionResults() {
           <Container className='py-10'>
             <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2023</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
-              <ResultLink title='RECORD BREAKERS 2023' link='/downloads/RECORD-BRAKERS-2023.xslx' />
+              <ResultLink title='RECORD BREAKERS 2023' link='/downloads/RECORD-BRAKERS-2023.xlsx' />
               <ResultLink
                 title='100% RAW STRICT CURL WORLD CUP 2023 GB'
                 link='/downloads/100-RAW-STRICT-CURL-WORLD-CUP-2023-GB.xlsx'
