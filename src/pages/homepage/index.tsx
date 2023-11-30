@@ -8,6 +8,7 @@ import Hero from './Hero';
 import Welcome from './Welcome';
 import Testimonials from './Testimonials';
 import MeetOurFounder from './MeetOurFounder';
+import FreeAffiliation from './Video';
 
 export default function Homepage() {
   return (
@@ -20,6 +21,7 @@ export default function Homepage() {
       <main>
         <Hero />
         <Welcome />
+        <FreeAffiliation />
         <Testimonials />
         <MeetOurFounder />
       </main>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 import { fonts } from '@/helpers/fonts';
 import Button from '@/components/atoms/Button';
