@@ -27,33 +27,6 @@ export default function Events() {
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={recordbreakers} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Record Breakers</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>26th November 2023</p>
-                <p className='mb-2'>Qualifier for 2024</p>
-                <p className='mb-2'>
-                  The BPF Academy
-                  <br />
-                  Unit 3 Baily Brook Business Park
-                  <br />
-                  Langley Mill
-                  <br />
-                  NG16 4BE
-                </p>
-                <p className='mb-2'>
-                  Weigh in: 25th November 2023
-                  <br />
-                  10:00 - 12:00 - No appointment required
-                  <br />
-                  17:00 - 18:00 - By appointment only
-                </p>
-                <p className='mb-2'>
-                  <Button href='https://forms.gle/s2AEEvyQihuCYtqAA' target='_blank'>
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={montycrown} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>The Monty Crown</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>3rd - 4th February 2024</p>
@@ -100,7 +73,20 @@ export default function Events() {
                   BPF British DT Championships
                 </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>17 - 19 May 2024</p>
-                <p className='mb-2'>Coventry Rugby Club</p>
+                <p className='mb-2'>
+                  Coventry Rugby Club
+                  <br />
+                  Butts Park Arena
+                  <br />
+                  Coventry
+                  <br />
+                  CV1 3GE
+                </p>
+                <p className='mb-2'>
+                  <Button href='https://events.bplf.co.uk/brits2024' target='_blank'>
+                    More Details
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Strong in Boston</h2>
