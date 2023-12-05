@@ -42,7 +42,8 @@ const Navbar = () => {
                 <DropdownItem href='/blog'>Blog</DropdownItem>
                 <DropdownItem href='/newsletters'>Newsletters</DropdownItem>
                 <DropdownItem href='/accredited'>Accredited Gyms & Trainers</DropdownItem>
-                <DropdownItem href='/gallery'>Gallery</DropdownItem>
+                <DropdownItem href='/gallery'>Photo Gallery</DropdownItem>
+                <DropdownItem href='/gallery/videos'>Video Gallery</DropdownItem>
               </DropdownMenu>
               <DropdownMenu href='/rules' text='Policies'>
                 <DropdownItem href='/rules'>Rules</DropdownItem>

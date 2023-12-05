@@ -16,7 +16,7 @@ type Photos = {
   height: number;
 };
 
-export default function Newsletter() {
+export default function GalleryPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [photos, setPhotos] = useState<Photos[]>([]);
   const [currentImage, setCurrentImage] = useState(0);
@@ -45,13 +45,13 @@ export default function Newsletter() {
   return (
     <>
       <Head>
-        <title>Gallery | British Powerlifting Federation</title>
+        <title>Photo Gallery | British Powerlifting Federation</title>
       </Head>
       <Header />
       <Navbar />
       <main>
         <section>
-          <PageHeader title='Gallery' />
+          <PageHeader title='Photo Gallery' />
           <Container className='py-10'>
             {isLoading && (
               <div className='text-center'>
