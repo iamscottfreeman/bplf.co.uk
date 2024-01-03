@@ -20,11 +20,9 @@ import paul from './paul.jpg';
 import tony from './tony.jpg';
 import nicola from './nicola.jpg';
 import jake from './jake.jpg';
-import heather from './heather.jpg';
 import izzy from './izzy.jpg';
 import lucy from './lucy.jpg';
 import bekkie from './bekkie.jpg';
-import jim from './jim.jpg';
 import john from './john.jpg';
 import damian from './damian.jpg';
 import david from './david.jpg';
@@ -35,6 +33,7 @@ import dan from './dan.jpg';
 import phil from './phil.jpg';
 import freddie from './freddie.jpg';
 import nicky from './nicky.jpg';
+import roz from './roz.jpg';
 import placeholder from './placeholder.png';
 
 export default function MeetTheTeam() {
@@ -88,7 +87,6 @@ export default function MeetTheTeam() {
               <Member name='Tony Power' title='International Referee & Technical Officer' image={tony} />
               <Member name='Chris Roberts' title='International Referee' image={chris} />
               <Member name='David Mannering' title='International Referee & Technical Officer' image={david} />
-              <Member name='Heather Swain' title='International Referee' image={heather} />
               <Member name='Charlotte Wearing' title='International Referee ' image={charlotte} />
             </div>
 
@@ -110,7 +108,7 @@ export default function MeetTheTeam() {
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Trainee Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Glen Smith' title='Trainee Referee' image={placeholder} />
-              <Member name='Roz' title='Trainee Referee' image={placeholder} />
+              <Member name='Roz' title='Trainee Referee' image={roz} />
             </div>
 
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>Staff Officials</h2>

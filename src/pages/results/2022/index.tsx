@@ -12,15 +12,14 @@ export default function Results() {
   return (
     <>
       <Head>
-        <title>Previous British Records | Results | British Powerlifting Federation</title>
+        <title>British Records 2022 | Results | British Powerlifting Federation</title>
       </Head>
       <Header />
       <Navbar />
       <main>
         <section>
-          <PageHeader title='Previous British Records' />
+          <PageHeader title='British Records 2022' />
           <Container className='py-10'>
-            <h2 className={`${fonts.header.className} uppercase text-center text-5xl mb-4 text-red-600`}>2022</h2>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
                 title='BRITISH RAW NON-TESTED RECORDS'

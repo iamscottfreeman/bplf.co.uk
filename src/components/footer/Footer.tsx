@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <div className='mb-8 md:mb-0 flex space-x-2'>
                 <Image src={bpfLogo} alt='British Powerlifting Federation' height={125} className='mb-2' />
-                <Image src={wpuLogo} alt='World Powerlifting Union' height={125} className='mb-2' />
+                <Image src={wpuLogo} alt='World Powerlifting Union' height={125} className='mb-2 rounded' />
                 <Image src={rawLogo} alt='100% Raw Powerlifting' height={125} className='mb-2' />
               </div>
             </div>

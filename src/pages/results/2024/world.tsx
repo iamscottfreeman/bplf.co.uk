@@ -12,54 +12,54 @@ export default function Results() {
   return (
     <>
       <Head>
-        <title>World Records 2023 | Results | British Powerlifting Federation</title>
+        <title>World Records 2024 | Results | British Powerlifting Federation</title>
       </Head>
       <Header />
       <Navbar />
       <main>
         <section>
-          <PageHeader title='World Records 2023' />
+          <PageHeader title='World Records 2024' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
-                title='TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
-                link='/downloads/world-records/TESTED-FP-CLASSIC-RAW.xlsx'
+                title='TESTED FULL POWER CLASSIC RAW JANUARY 2024'
+                link='/downloads/results/2024/world/TESTED-FP-CLASSIC-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED FULL POWER RAW NOVEMBER 2023'
-                link='/downloads/world-records/TESTED-FP-RAW.xlsx'
+                title='TESTED FULL POWER RAW JANUARY 2024'
+                link='/downloads/results/2024/world/TESTED-FP-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/world-records/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS JANUARY 2024'
+                link='/downloads/results/2024/world/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/world-records/TESTED-RAW-SINGLE-LIFTS.xlsx'
+                title='TESTED CLASSIC POWER RAW SINGLE LIFTS JANUARY 2024'
+                link='/downloads/results/2024/world/TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED STRICT CURL NOVEMBER 2023'
-                link='/downloads/world-records/TESTED-STRICT-CURL.xlsx'
+                title='TESTED STRICT CURL JANUARY 2024'
+                link='/downloads/results/2024/world/TESTED-STRICT-CURL.xlsx'
               />
               <ResultLink
-                title='NON-TESTED FULL POWER CLASSIC RAW NOVEMBER 2023'
-                link='/downloads/world-records/NON-TESTED-FP-CLASSIC-RAW.xlsx'
+                title='NON-TESTED FULL POWER CLASSIC RAW JANUARY 2024'
+                link='/downloads/results/2024/world/NON-TESTED-FP-CLASSIC-RAW.xlsx'
               />
               <ResultLink
-                title='NON-TESTED FULL POWER RAW NOVEMBER 2023'
-                link='/downloads/world-records/NON-TESTED-FP-RAW.xlsx'
+                title='NON-TESTED FULL POWER RAW JANUARY 2024'
+                link='/downloads/results/2024/world/NON-TESTED-FP-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/world-records/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS JANUARY 2024'
+                link='/downloads/results/2024/world/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS NOVEMBER 2023'
-                link='/downloads/world-records/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
+                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS JANUARY 2024'
+                link='/downloads/results/2024/world/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='NON-TESTED STRICT CURL NOVEMBER 2023'
-                link='/downloads/world-records/NON-TESTED-STRICT-CURL.xlsx'
+                title='NON-TESTED STRICT CURL JANUARY 2024'
+                link='/downloads/results/2024/world/NON-TESTED-STRICT-CURL.xlsx'
               />
             </div>
             <div className='mt-20 mb-4'>

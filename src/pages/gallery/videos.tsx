@@ -21,7 +21,7 @@ export default function Videos() {
           <PageHeader title='Video Gallery' />
           <Container className='py-10'>
             <div className='grid lg:grid-cols-2 space-x-4'>
-              <div>
+              <section>
                 <div>
                   <h2 className={`${fonts.header.className} text-center uppercase text-2xl mb-2`}>
                     National Sikh Powerlifting Championships 2023
@@ -33,7 +33,7 @@ export default function Videos() {
                   playing={false}
                   className='videoWrapper'
                 />
-              </div>
+              </section>
             </div>
           </Container>
         </section>

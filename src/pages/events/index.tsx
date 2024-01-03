@@ -88,13 +88,15 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Welsh Expo</h2>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Expo Wales</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>29 - 30 June 2024</p>
+                <p className='mb-2'>100% Raw powerlifting (drug tested)</p>
+                <p className='mb-2'>Mr & Mrs Universe, Full Power, Single Lifts, Strict Curl, Non-Raw, World Cup</p>
                 <p className='mb-2'>ICC Wales</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Strong in Boston</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>14 July 2024</p>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Boston Strong</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>13 July 2024</p>
                 <p className='mb-2'>Boston, Lincolnshire</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
@@ -110,6 +112,47 @@ export default function Events() {
                 </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 July 2024</p>
                 <p className='mb-2'>BPF Academy</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  British N/T Championships
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>3 - 4 August 2024</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Day of the Dead</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>31 August 2024</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Record Breakers</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 - 22 September 2024</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  WPU Non-Tested World Championships
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>25 - 27 October 2024</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  World Strict Curl, Bench Press, and Deadlift
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>9 November 2024</p>
+                <p className='mb-2'>Virginia USA</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  100% Raw Powerlifting Tested World Championships
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 - 24 November 2024</p>
+                <p className='mb-2'>Virginia USA</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  100% Raw Powerlifting
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>March 2025</p>
+                <p className='mb-2'>Dubai</p>
               </div>
             </div>
             <div className='mt-20 mb-4'>

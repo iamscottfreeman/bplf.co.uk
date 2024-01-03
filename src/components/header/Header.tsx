@@ -36,7 +36,7 @@ const Header = () => {
                 </Link>
               </h1>
               <div className=''>
-                <Image src={wpuLogo} alt='World Powerlifting Union' className='w-32 md:w-20 ml-2 mb-2' />
+                <Image src={wpuLogo} alt='World Powerlifting Union' className='w-32 rounded md:w-24 ml-2 mb-2' />
               </div>
             </div>
             <div className='hidden md:flex space-x-4 text-sm'>

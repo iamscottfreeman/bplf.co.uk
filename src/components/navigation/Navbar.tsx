@@ -3,7 +3,6 @@ import MobileMenuButton from './MobileMenuButton';
 import DropdownItem from './DropdownItem';
 import DropdownMenu from './DropdownMenu';
 import Link from './Link';
-import IconBook from '../icons/IconBook';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,11 +31,20 @@ const Navbar = () => {
               <Link href='/membership'>Membership</Link>
               <Link href='/events'>Events</Link>
               <DropdownMenu href='/results' text='Results'>
-                <DropdownItem href='/results/'>British Records 2023</DropdownItem>
-                <DropdownItem href='/results/eu'>Commonwealth & EU Records 2023</DropdownItem>
-                <DropdownItem href='/results/world'>World Records 2023</DropdownItem>
-                <DropdownItem href='/results/competitions'>Competition Results</DropdownItem>
-                <DropdownItem href='/results/previous'>Previous British Records</DropdownItem>
+                <DropdownItem href='/results/2024/'>British Records 2024</DropdownItem>
+                <DropdownItem href='/results/2024/eu'>Commonwealth & EU Records 2024</DropdownItem>
+                <DropdownItem href='/results/2024/world'>World Records 2024</DropdownItem>
+                <DropdownItem href='/results/2024/competitions'>Competition Results 2024</DropdownItem>
+                <div className='border-b border-gray-400' />
+                <h3 className='ml-2 md:text-xl font-bold'>2023</h3>
+                <DropdownItem href='/results/2023/'>British Records 2023</DropdownItem>
+                <DropdownItem href='/results/2023/eu'>Commonwealth & EU Records 2023</DropdownItem>
+                <DropdownItem href='/results/2023/world'>World Records 2023</DropdownItem>
+                <DropdownItem href='/results/2023/competitions'>Competition Results 2023</DropdownItem>
+                <div className='border-b border-gray-400' />
+                <h3 className='ml-2 md:text-xl font-bold'>2022</h3>
+                <DropdownItem href='/results/2022/'>British Records 2022</DropdownItem>
+                <DropdownItem href='/results/2023/competitions'>Competition Results 2022 - 2014</DropdownItem>
               </DropdownMenu>
               <DropdownMenu href='/blog' text='Community'>
                 <DropdownItem href='/blog'>Blog</DropdownItem>
