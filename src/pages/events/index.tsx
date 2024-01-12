@@ -72,7 +72,7 @@ export default function Events() {
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
                   BPF British DT Championships
                 </h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>29 - 30 June 2024</p>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>17 - 19 May 2024</p>
                 <p className='mb-2'>
                   Coventry Rugby Club
                   <br />
