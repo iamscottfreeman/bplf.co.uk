@@ -11,6 +11,7 @@ import Button from '@/components/atoms/Button';
 
 import img10 from './10.jpg';
 import montycrown from './montycrown.jpg';
+import expowales from './expowales.jpg';
 
 export default function Events() {
   return (
@@ -88,6 +89,7 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={expowales} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Expo Wales</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>29 - 30 June 2024</p>
                 <p className='mb-2'>100% Raw powerlifting (drug tested)</p>
