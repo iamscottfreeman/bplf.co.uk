@@ -95,6 +95,11 @@ export default function Events() {
                 <p className='mb-2'>100% Raw powerlifting (drug tested)</p>
                 <p className='mb-2'>Mr & Mrs Universe, Full Power, Single Lifts, Strict Curl, Non-Raw, World Cup</p>
                 <p className='mb-2'>ICC Wales</p>
+                <p className='mb-2'>
+                  <Button href='https://events.bplf.co.uk/wales2024' target='_blank'>
+                    More Details
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Boston Strong</h2>
