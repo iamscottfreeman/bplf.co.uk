@@ -12,6 +12,7 @@ import Button from '@/components/atoms/Button';
 import img10 from './10.jpg';
 import montycrown from './montycrown.jpg';
 import expowales from './expowales.jpg';
+import britchamps2024 from './britchamps2024.png';
 
 export default function Events() {
   return (
@@ -69,6 +70,7 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={britchamps2024} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
                   BPF British DT Championships
                 </h2>
