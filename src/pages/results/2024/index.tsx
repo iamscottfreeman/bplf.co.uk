@@ -62,6 +62,10 @@ export default function Results() {
                 link='/downloads/results/2024/british/NON-TESTED-STRICT-CURL.xlsx'
               />
               <ResultLink
+                title='BRITISH SINGLE PLY JANUARY 2024'
+                link='/downloads/results/2024/british/BRITISH-SP.xlsx'
+              />
+              <ResultLink
                 title='Mens Para Bench JANUARY 2024'
                 link='/downloads/results/2024/british/TESTED-MEN-PARA-BENCH.xlsx'
               />

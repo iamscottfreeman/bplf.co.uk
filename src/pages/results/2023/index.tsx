@@ -49,7 +49,7 @@ export default function Results() {
                 link='/downloads/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink title='NON-TESTED STRICT CURL NOVEMBER 2023' link='/downloads/NON-TESTED-STRICT-CURL.xlsx' />
-
+              <ResultLink title='BRITISH SINGLE PLY DECEMBER 2023' link='/downloads/BRITISH-SP.xlsx' />
               <ResultLink title='Mens Para Bench May 2023' link='/downloads/mens-para-bench-2023.xlsx' />
               <ResultLink title='Mens Para Deadlift May 2023' link='/downloads/mens-para-deadlift-2023.xlsx' isLast />
             </div>
