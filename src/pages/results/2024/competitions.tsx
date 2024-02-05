@@ -20,7 +20,9 @@ export default function CompetitionResults() {
         <section>
           <PageHeader title='Competition Results 2024' />
           <Container className='py-10'>
-            <div className='text-center text-2xl'>None yet...</div>
+            <div className='md:grid grid-cols-3 items-center text-center gap-4'>
+              <ResultLink title='Monty Crown 2024' link='/downloads/MONTY-CROWN-2024 FULL-COMP-OUTCOME.csv' isLast />
+            </div>
           </Container>
         </section>
       </main>
