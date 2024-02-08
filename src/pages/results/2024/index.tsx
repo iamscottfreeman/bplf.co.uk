@@ -22,43 +22,43 @@ export default function Results() {
           <Container className='py-10'>
             <div className='md:grid grid-cols-3 items-center text-center gap-4'>
               <ResultLink
-                title='TESTED FULL POWER CLASSIC RAW JANUARY 2024'
+                title='TESTED FULL POWER CLASSIC RAW FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-FP-CLASSIC-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED FULL POWER RAW JANUARY 2024'
+                title='TESTED FULL POWER RAW FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-FP-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS JANUARY 2024'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC POWER RAW SINGLE LIFTS JANUARY 2024'
+                title='TESTED CLASSIC POWER RAW SINGLE LIFTS FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='TESTED STRICT CURL JANUARY 2024'
+                title='TESTED STRICT CURL FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-STRICT-CURL.xlsx'
               />
               <ResultLink
-                title='NON-TESTED FULL POWER CLASSIC RAW JANUARY 2024'
+                title='NON-TESTED FULL POWER CLASSIC RAW FEBRUARY 2024'
                 link='/downloads/results/2024/british/NON-TESTED-FP-CLASSIC-RAW.xlsx'
               />
               <ResultLink
-                title='NON-TESTED FULL POWER RAW JANUARY 2024'
+                title='NON-TESTED FULL POWER RAW FEBRUARY 2024'
                 link='/downloads/results/2024/british/NON-TESTED-FP-RAW.xlsx'
               />
               <ResultLink
-                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS JANUARY 2024'
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS FEBRUARY 2024'
                 link='/downloads/results/2024/british/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS JANUARY 2024'
+                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS FEBRUARY 2024'
                 link='/downloads/results/2024/british/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
               />
               <ResultLink
-                title='NON-TESTED STRICT CURL JANUARY 2024'
+                title='NON-TESTED STRICT CURL FEBRUARY 2024'
                 link='/downloads/results/2024/british/NON-TESTED-STRICT-CURL.xlsx'
               />
               <ResultLink
@@ -66,11 +66,11 @@ export default function Results() {
                 link='/downloads/results/2024/british/BRITISH-SP.xlsx'
               />
               <ResultLink
-                title='Mens Para Bench JANUARY 2024'
+                title='Mens Para Bench FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-MEN-PARA-BENCH.xlsx'
               />
               <ResultLink
-                title='Mens Para Deadlift JANUARY 2024'
+                title='Mens Para Deadlift FEBRUARY 2024'
                 link='/downloads/results/2024/british/TESTED-MEN-PARA-DEADLIFT.xlsx'
                 isLast
               />
