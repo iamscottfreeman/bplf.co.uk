@@ -71,9 +71,6 @@ export default function About() {
                 <Image src={aboutUs2} alt='' className='rounded-md' />
               </div>
             </div>
-            <div>
-              <Image src={aboutUs1} alt='' className='rounded-md' />
-            </div>
           </Container>
         </section>
       </main>

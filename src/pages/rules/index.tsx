@@ -21,7 +21,8 @@ export default function Rules() {
           <PageHeader title='Rules' />
           <Container className='py-10'>
             <div className='md:grid grid-cols-2 items-center text-center gap-4'>
-              <RulesLink title='Rule Book (Nov 2023)' link='/downloads/Rulebook-2023.pdf' isLast />
+              <RulesLink title='Rule Book (Nov 2023)' link='/downloads/Rulebook-2023.pdf' />
+              <RulesLink title='100% RAW Rule Book' link='https://rawpowerlifting.com/rules/' isLast />
             </div>
           </Container>
         </section>

@@ -34,38 +34,6 @@ export default function Accredited() {
             <div className='mb-10'>
               <div className='md:flex'>
                 <div className='w-80 mr-4 mb-4 shrink-0'>
-                  <Image src={ots} alt='' className='w-80 rounded-md' />
-                </div>
-                <div>
-                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>
-                    Old Tyme Strength
-                  </h2>
-                  <p className='font-bold'>Location:</p>
-                  <p className='mb-4'>
-                    Unit 1E Victoria Street
-                    <br />
-                    Mansfield
-                    <br />
-                    Nottinghamshire
-                    <br />
-                    NG18 5RR
-                  </p>
-                  <p className='font-bold'>Website:</p>
-                  <p className='mb-4'>
-                    <Link
-                      href='https://www.oldtymestrength.com/'
-                      target='_blank'
-                      className='underline transition-colors text-blue-500 hover:text-red-700'
-                    >
-                      oldtymestrength.com
-                    </Link>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='mb-10'>
-              <div className='md:flex'>
-                <div className='w-80 mr-4 mb-4 shrink-0'>
                   <Image src={mayhem} alt='' className='w-80 rounded-md' />
                 </div>
                 <div>

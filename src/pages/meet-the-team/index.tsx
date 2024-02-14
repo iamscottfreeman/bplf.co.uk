@@ -85,7 +85,6 @@ export default function MeetTheTeam() {
             <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>International Referees</h2>
             <div className='mb-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 space-x-4 -ml-4'>
               <Member name='Tony Power' title='International Referee & Technical Officer' image={tony} />
-              <Member name='Chris Roberts' title='International Referee' image={chris} />
               <Member name='David Mannering' title='International Referee & Technical Officer' image={david} />
               <Member name='Charlotte Wearing' title='International Referee ' image={charlotte} />
             </div>

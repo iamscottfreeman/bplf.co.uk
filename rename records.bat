@@ -1,0 +1,18 @@
+@echo off
+
+rename "NON TESTED CASSIC RAW FP.xlsx" "NON-TESTED-FP-CLASSIC-RAW.xlsx"
+rename "NON TESTED CLASSIC RAW SINGAL LIFTS.xlsx" "NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx"
+rename "NON TESTED RAW FP.xlsx" "NON-TESTED-FP-RAW.xlsx"
+rename "NON TESTED RAW SINGAL LIFT.xlsx" "NON-TESTED-RAW-SINGLE-LIFTS.xlsx"
+rename "NON TESTED STRICKED CURL.xlsx" "NON-TESTED-STRICT-CURL.xlsx"
+rename "TESTED CLASSSIC RAW SINGAL LIFTS.xlsx" "TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx"
+rename "Tested FP  Classic RAW.xlsx" "TESTED-FP-CLASSIC-RAW.xlsx"
+rename "Tested FP  RAW records.xlsx" "TESTED-FP-RAW.xlsx"
+rename "TESTED RAW SINGAL LIFTS .xlsx" "TESTED-RAW-SINGLE-LIFTS.xlsx"
+rename "TESTED STRICKED CURL.xlsx" "TESTED-STRICT-CURL.xlsx"
+rename "NON Tested FP  Classic RAW.xlsx" "NON-TESTED-FP-CLASSIC-RAW.xlsx"
+rename "NON Tested FP  RAW records.xlsx" "NON-TESTED-FP-RAW.xlsx"
+rename "NON TESTED RAW SINGAL LIFTS.xlsx" "NON-TESTED-RAW-SINGLE-LIFTS.xlsx"
+rename "NON TESTED CLASSSIC RAW SINGAL LIFTS.xlsx" "NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx"
+rename "NON TESTED CASSIC RAW FP world records.xlsx" "NON-TESTED-FP-CLASSIC-RAW.xlsx"
+rename "Sply British recordes .xlsx" "BRITISH-SP.xlsx"

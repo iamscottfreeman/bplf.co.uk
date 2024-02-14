@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div className='border-b border-gray-400' />
                 <h3 className='ml-2 md:text-xl font-bold'>2022</h3>
                 <DropdownItem href='/results/2022/'>British Records 2022</DropdownItem>
-                <DropdownItem href='/results/2023/competitions'>Competition Results 2022 - 2014</DropdownItem>
+                <DropdownItem href='/results/2022/competitions'>Competition Results 2022 - 2014</DropdownItem>
               </DropdownMenu>
               <DropdownMenu href='/blog' text='Community'>
                 <DropdownItem href='/blog'>Blog</DropdownItem>
