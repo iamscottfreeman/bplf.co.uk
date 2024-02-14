@@ -10,7 +10,7 @@ import Container from '@/components/atoms/Container';
 import Button from '@/components/atoms/Button';
 
 import img10 from './10.jpg';
-import montycrown from './montycrown.jpg';
+import wpo from './wpo.jpg';
 import expowales from './expowales.jpg';
 import britchamps2024 from './britchamps2024.png';
 
@@ -27,26 +27,6 @@ export default function Events() {
           <PageHeader title='Events' />
           <Container className='py-10'>
             <div className='lg:grid grid-cols-2 space-x-4 space-y-10 -ml-4 -mt-10'>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={montycrown} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>The Monty Crown</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>3rd - 4th February 2024</p>
-                <p className='mb-2'>
-                  The BPF Academy
-                  <br />
-                  Unit 3 Baily Brook Business Park
-                  <br />
-                  Langley Mill
-                  <br />
-                  NG16 4BE
-                </p>
-                <p className='mb-2'>Weigh in: 2nd February 2024</p>
-                <p className='mb-2'>
-                  <Button href='https://forms.gle/6hzVuQntesn4nchS6' target='_blank'>
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={img10} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Mayhem in Boston</h2>
@@ -68,6 +48,14 @@ export default function Events() {
                     Entry Form
                   </Button>
                 </p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={wpo} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  WPO Semi-Final 2024
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>4th & 5th May 2024</p>
+                <p className='mb-2'>Portugal</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={britchamps2024} alt='' className='w-3/4 rounded-md mb-4' />
