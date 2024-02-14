@@ -54,7 +54,7 @@ export default function Events() {
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
                   WPO Semi-Final 2024
                 </h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>4th & 5th May 2024</p>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>4 - 5 May 2024</p>
                 <p className='mb-2'>Portugal</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
