@@ -64,58 +64,6 @@ export default function Accredited() {
             <div className='mb-10'>
               <div className='md:flex'>
                 <div className='w-80 mr-4 mb-4 shrink-0'>
-                  <Image src={chris} alt='' className='w-80 rounded-md' />
-                  <div className='flex space-x-2 mt-2 justify-center'>
-                    <Link href='https://www.facebook.com/oldtymestrengthcoach' target='_blank'>
-                      <IconFacebook className='fill-gray-300 sm:w-14 sm:h-14 hover:fill-gray-100 transition-colors' />
-                    </Link>
-                    <Link href='https://www.instagram.com/sports_science_dad/' target='_blank'>
-                      <IconInstagram className='fill-gray-300 sm:w-14 sm:h-14 hover:fill-gray-100 transition-colors' />
-                    </Link>
-                  </div>
-                </div>
-                <div>
-                  <h2 className={`${fonts.header.className} uppercase text-red-600 text-5xl mb-4`}>Chris</h2>
-                  <p className='mb-4 text-2xl font-bold'>Manager / Head Coach</p>
-                  <p className='mb-4 font-bold'>Qualification:</p>
-                  <p className='mb-4'>
-                    BSc Applied Sport Science (Loughborough) (Including: Applied Performance Analysis, Advanced topics
-                    in Exercise Psychology, Strength & Conditioning Training, Advanced Topics in Physical Activity &
-                    Health, Performance Nutrition, Performance Physiology) (Research Project: Sticking Points in Squat,
-                    Benchpress and Deadlift)
-                  </p>
-                  <p className='mb-4'>
-                    FdSc Sports Science (Derby ) (Including: Sports Nutrition, Sports Conditioning, Sports Psychology,
-                    Applied Sports Psychology, Physiology, Biomechanics)
-                  </p>
-                  <p className='mb-4'>Lv 4 Strength & Conditioning (KBT Education)</p>
-                  <p className='mb-4'>Lv 4 Remedial Therapy (Premier Global)</p>
-                  <p className='mb-4'>Lv 3 Sports Massage Therapy (Premier Global)</p>
-                  <p className='mb-4'>Lv 3 Advanced Personal Trainer (Premier Global)</p>
-                  <p className='mb-4'>Lv 1 Powerlifting Coach (British Drug Free Powerlifting Association)</p>
-                  <p className='mb-4'>Lv 2 Powerlifting Coach (British Powerlifting)</p>
-                  <p className='mb-4'>Group Exercise Instructor (Premier Global)</p>
-                  <p className='mb-4'>Specialist Populations Instructor (Premier Global)</p>
-                  <p className='mb-4'>Kettlebell Instructor (Various)</p>
-                  <p className='mb-4'>Registered Clean Coach (WADA)</p>
-                  <p className='mb-4'>Anti-Doping advisor</p>
-                  <p className='mb-4'>Currently Studying: MSc Musculoskeletal Sports Science & Health</p>
-                  <p className='mb-4 font-bold'>Experience:</p>
-                  <p className='mb-4'>
-                    Army Veteran, Coach - AWPC European Championships, Coach - ABPU British Championships, Coach - ABPU
-                    Qualifiers, Coach - BP 4 Counties, Coach - Strongman/Woman (Various)
-                  </p>
-                  <p className='mb-4 font-bold'>Specialist Areas:</p>
-                  <p className='mb-4'>
-                    Strength & Conditioning, Injury Rehabilitation, Weight loss / Body Composition Change
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className='mb-10'>
-              <div className='md:flex'>
-                <div className='w-80 mr-4 mb-4 shrink-0'>
                   <Image src={joe} alt='' className='w-80 rounded-md' />
                 </div>
                 <div>
