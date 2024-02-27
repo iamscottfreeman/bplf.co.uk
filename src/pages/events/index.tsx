@@ -12,6 +12,7 @@ import Button from '@/components/atoms/Button';
 import img10 from './10.jpg';
 import wpo from './wpo.jpg';
 import expowales from './expowales.jpg';
+import rhinos from './rhinos.png';
 import britchamps2024 from './britchamps2024.png';
 
 export default function Events() {
@@ -109,6 +110,11 @@ export default function Events() {
                 </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 July 2024</p>
                 <p className='mb-2'>BPF Academy</p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={rhinos} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Rhinos Gym</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>28 July 2024</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
