@@ -14,6 +14,12 @@ import wpo from './wpo.jpg';
 import expowales from './expowales.jpg';
 import rhinos from './rhinos.png';
 import britchamps2024 from './britchamps2024.png';
+import rhinos2 from './rhinos.jpeg';
+import montycrown from './montycrown.jpeg';
+import menofsteel from './menofsteel.jpeg';
+import dayofthedead from './dayofthedead.jpeg';
+import recordbreakers from './recordbreakers.jpeg';
+import strictcurl from './strictcurl.jpeg';
 
 export default function Events() {
   return (
@@ -80,6 +86,19 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={rhinos2} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Rumball at Rhinos</h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>28 June 2024</p>
+                <p className='mb-2'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfzM5iN_CtXVpknHk2NRK9zdr6jCFD9rPTBLMiRWucJO_ehMw/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
+                    Entry Form
+                  </Button>
+                </p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={expowales} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Expo Wales</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>29 - 30 June 2024</p>
@@ -93,9 +112,20 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Boston Strong</h2>
+                <Image src={strictcurl} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  Boston Strict Curl Championship
+                </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>13 July 2024</p>
                 <p className='mb-2'>Boston, Lincolnshire</p>
+                <p className='mb-2'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfsRu7NEo9z8vqoVu2KhhyfR-d10Okq18aX9CeKwUxGanyZTA/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
+                    Entry Form
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
@@ -103,8 +133,17 @@ export default function Events() {
                 </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>20 July 2024</p>
                 <p className='mb-2'>BPF Academy</p>
+                <p className='mb-2'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSetJ1W6_vlnE-MyCQIVBYxYUHWW3Paf4Kid1kkaqjLigPUVIg/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
+                    Entry Form
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={menofsteel} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
                   Men Of Steel Prize Meet
                 </h2>
@@ -123,12 +162,26 @@ export default function Events() {
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>3 - 4 August 2024</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={dayofthedead} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Day of the Dead</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>31 August 2024</p>
+                <Button
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSejox95uCCDzw1UJY0rAuhN23QoBAgpibUbeXxQiUobG5NQHw/viewform?vc=0&c=0&w=1&flr=0'
+                  target='_blank'
+                >
+                  Entry Form
+                </Button>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={recordbreakers} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Record Breakers</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 - 22 September 2024</p>
+                <Button
+                  href='https://docs.google.com/forms/d/e/1FAIpQLScZZaRLfML3kurT4-na0TUD4Zv6qYXXAQs_O6v2rq08cfpB5Q/viewform?vc=0&c=0&w=1&flr=0'
+                  target='_blank'
+                >
+                  Entry Form
+                </Button>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
