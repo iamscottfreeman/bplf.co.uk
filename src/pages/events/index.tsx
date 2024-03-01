@@ -149,6 +149,14 @@ export default function Events() {
                 </h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>21 July 2024</p>
                 <p className='mb-2'>BPF Academy</p>
+                <p className='mb-2'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSdtVBfJycwSRwuitt3PGzPjWSRv8jpG-MHKZFslUUPu_1TQpg/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
+                    Entry Form
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={rhinos} alt='' className='w-3/4 rounded-md mb-4' />
