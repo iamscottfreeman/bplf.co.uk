@@ -86,19 +86,6 @@ export default function Events() {
                 </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
-                <Image src={rhinos2} alt='' className='w-3/4 rounded-md mb-4' />
-                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Rumball at Rhinos</h2>
-                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>28 June 2024</p>
-                <p className='mb-2'>
-                  <Button
-                    href='https://docs.google.com/forms/d/e/1FAIpQLSfzM5iN_CtXVpknHk2NRK9zdr6jCFD9rPTBLMiRWucJO_ehMw/viewform?vc=0&c=0&w=1&flr=0'
-                    target='_blank'
-                  >
-                    Entry Form
-                  </Button>
-                </p>
-              </div>
-              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={expowales} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Expo Wales</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>29 - 30 June 2024</p>
@@ -162,6 +149,14 @@ export default function Events() {
                 <Image src={rhinos} alt='' className='w-3/4 rounded-md mb-4' />
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>Rhinos Gym</h2>
                 <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>28 July 2024</p>
+                <p className='mb-2'>
+                  <Button
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSfzM5iN_CtXVpknHk2NRK9zdr6jCFD9rPTBLMiRWucJO_ehMw/viewform?vc=0&c=0&w=1&flr=0'
+                    target='_blank'
+                  >
+                    Entry Form
+                  </Button>
+                </p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
