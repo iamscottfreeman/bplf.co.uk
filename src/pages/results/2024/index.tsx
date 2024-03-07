@@ -20,7 +20,52 @@ export default function Results() {
         <section>
           <PageHeader title='British Records 2024' />
           <Container className='py-10'>
-            <div className='text-center text-xl'>No records set yet... Check back soon!</div>
+            <div className='md:grid grid-cols-3 items-center text-center gap-4'>
+              <ResultLink
+                title='TESTED FULL POWER CLASSIC RAW'
+                link='/downloads/results/2024/british/TESTED-FP-CLASSIC-RAW.xlsx'
+              />
+              <ResultLink title='TESTED FULL POWER RAW' link='/downloads/results/2024/british/TESTED-FP-RAW.xlsx' />
+              <ResultLink
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS'
+                link='/downloads/results/2024/british/TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+              />
+              <ResultLink
+                title='TESTED CLASSIC POWER RAW SINGLE LIFTS'
+                link='/downloads/results/2024/british/TESTED-RAW-SINGLE-LIFTS.xlsx'
+              />
+              <ResultLink title='TESTED STRICT CURL' link='/downloads/results/2024/british/TESTED-STRICT-CURL.xlsx' />
+              <ResultLink
+                title='NON-TESTED FULL POWER CLASSIC RAW'
+                link='/downloads/results/2024/british/NON-TESTED-FP-CLASSIC-RAW.xlsx'
+              />
+              <ResultLink
+                title='NON-TESTED FULL POWER RAW'
+                link='/downloads/results/2024/british/NON-TESTED-FP-RAW.xlsx'
+              />
+              <ResultLink
+                title='TESTED CLASSIC CLASSIC RAW SINGLE LIFTS'
+                link='/downloads/results/2024/british/NON-TESTED-CLASSIC-RAW-SINGLE-LIFTS.xlsx'
+              />
+              <ResultLink
+                title='NON-TESTED CLASSIC POWER RAW SINGLE LIFTS'
+                link='/downloads/results/2024/british/NON-TESTED-RAW-SINGLE-LIFTS.xlsx'
+              />
+              <ResultLink
+                title='NON-TESTED STRICT CURL'
+                link='/downloads/results/2024/british/NON-TESTED-STRICT-CURL.xlsx'
+              />
+              <ResultLink
+                title='BRITISH SINGLE PLY JANUARY 2024'
+                link='/downloads/results/2024/british/BRITISH-SP.xlsx'
+              />
+              <ResultLink title='Mens Para Bench' link='/downloads/results/2024/british/TESTED-MEN-PARA-BENCH.xlsx' />
+              <ResultLink
+                title='Mens Para Deadlift'
+                link='/downloads/results/2024/british/TESTED-MEN-PARA-DEADLIFT.xlsx'
+                isLast
+              />
+            </div>
             <div className='mt-20 mb-4'>
               <h2 className={`${fonts.header.className} uppercase text-5xl mb-4`}>
                 BPF / WPU Competition Classifications 2024
