@@ -20,6 +20,7 @@ import menofsteel from './menofsteel.jpeg';
 import dayofthedead from './dayofthedead.jpeg';
 import recordbreakers from './recordbreakers.jpeg';
 import strictcurl from './strictcurl.jpeg';
+import wpuspain from './wpuspain.jpg';
 
 export default function Events() {
   return (
@@ -55,6 +56,13 @@ export default function Events() {
                     Entry Form
                   </Button>
                 </p>
+              </div>
+              <div className='ml-4 mt-10 flex flex-col items-center text-center'>
+                <Image src={wpuspain} alt='' className='w-3/4 rounded-md mb-4' />
+                <h2 className={`${fonts.header.className} uppercase text-red-600 text-4xl mb-2`}>
+                  WPU Spain Open Powerlifting 2024
+                </h2>
+                <p className={`${fonts.header.className} text-3xl uppercase mb-2`}>4 May 2024</p>
               </div>
               <div className='ml-4 mt-10 flex flex-col items-center text-center'>
                 <Image src={wpo} alt='' className='w-3/4 rounded-md mb-4' />
